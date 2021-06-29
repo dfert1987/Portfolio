@@ -1,9 +1,11 @@
 :root {
   --primary: #fff;
   --turquoise: #08a4b3;
-  --black: #042443;
+  --dark: #042443;
   --yellow: #fbdb04;
+  --red: #ea5e68;
   --League: 'LeagueGothic';
+  --Lato: 'Lato-SemiBold';
 }
 
 .hero-container {
@@ -28,9 +30,59 @@
   background-size: contain;
   border-right-color: var(--primary);
   border-right-width: 5px;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   opacity: 90%;
-  width: 39%;
+  width: 29%;
+}
+
+.intro {
+  background-color: var(--primary);
+  border: 5px solid var(--yellow);
+  border-radius: 2px;
+  box-shadow: 3px 2px 8px 5px black;
+  color: var(--dark);
+  font-family: var(--Lato);
+  font-size: 2.5rem;
+  margin-left: .5em;
+  margin-top: 4em;
+  padding: 0.1em;
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+}
+
+.name {
+  background-color: var(--primary);
+  border: 5px solid var(--red);
+  border-radius: 2px;
+  box-shadow: 3px 2px 8px 5px black;
+  color: var(--dark);
+  font-family: var(--League);
+  font-size: 9em;
+  margin-left: .5em;
+  margin-right: 1em;
+  margin-top: 1.5em;
+  padding: 0.05em 0.1em 0em 0.1em;
+  position: absolute;
+  text-align: center;
+  z-index: 9;
+}
+
+.description {
+  background-color: var(--primary);
+  border: 5px solid var(--turquoise);
+  border-radius: 2px;
+  box-shadow: 3px 2px 8px 5px black;
+  color: var(--dark);
+  font-family: var(--League);
+  font-size: 6em;
+  margin-top: 4em;
+  padding: 0.1em;
+  position: absolute;
+  text-align: center;
+  z-index: 9;
 }
 
 .right-side {
@@ -39,5 +91,16 @@
   background-size: cover;
   height: 100%;
   opacity: 90%;
-  width: 60%;
+  width: 70%;
+}
+
+.titles-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5em;
+  padding-right: 3em;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 8;
 }
