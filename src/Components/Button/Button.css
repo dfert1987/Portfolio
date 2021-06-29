@@ -1,0 +1,154 @@
+:root {
+  --primary: #fff;
+  --turquoise: #339bcf;
+  --black: black;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'LeagueGothic';
+  outline: none;
+  padding: 8px 30px;
+}
+
+.btn--primary {
+  background-color: var(--turquoise);
+  border: 1px solid var(--black);
+  color: var(--black);
+  transition: all 0.3s ease-out;
+}
+
+.btn--outline {
+  background-color: transparent;
+  border: 1px solid var(--black);
+  color: var(--black);
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+}
+
+.btn--outline2 {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  color: var(--black);
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+}
+
+.btn--outline3 {
+  background-color: var(--white);
+  border: 1px solid var(--turquoise);
+  color: var(--black);
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+}
+
+.btn--primary-send {
+  background-color: transparent;
+  border: 1px solid var(--turquoise);
+  color: var(--turquoise);
+}
+
+.btn--bigoutline {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  color: var(--turquoise);
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+}
+.btn--bigturqprimary {
+  background-color: var(--turquoise);
+  border: 1px solid var(--white);
+  color: var(--black);
+  padding: 8px 20px;
+  text-shadow: 2px 2px 5px var(--black);
+  transition: all 0.3s ease-out;
+  margin-right: 0.5em;
+}
+
+.btn--bigprimary {
+  background-color: var(--white);
+  border: 1px solid var(--turquoise);
+  color: var(--black);
+  padding: 8px 20px;
+  text-shadow: 2px 2px 5px var(--black);
+  transition: all 0.3s ease-out;
+  margin-left: 0.5em;
+}
+
+.btn--medium {
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--xlarge {
+  padding: 12px 50px;
+  font-size: 40px;
+}
+
+.btn--medium:hover,
+.btn--large:hover {
+  background-color: var(--white);
+  color: var(--black);
+  transition: all 0.3s ease-out;
+}
+
+.btn--outline:hover {
+  background-color: white;
+  transition: all 0.3s ease-out;
+}
+.btn--outline2:hover {
+  color: var(--turquoise);
+  transition: all 0.3s ease-out;
+}
+.btn--outline3:hover {
+  color: var(--black);
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+}
+
+.btn--primary:hover {
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+}
+.btn--primary-send:hover {
+  background-color: var(--turquoise);
+}
+
+.btn--bigblueprimary:hover {
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+}
+
+.btn--bigprimary:hover {
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+  .btn--bigblueprimary {
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+  }
+
+  .btn--bigprimary {
+    margin-left: 0em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .btn--bigblueprimary:hover {
+    background-color: transparent;
+    transition: all 0.3s ease-out;
+  }
+
+  .btn--bigprimary:hover {
+    background-color: transparent;
+    transition: all 0.3s ease-out;
+  }
+}

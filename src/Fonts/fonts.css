@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: local('LatoSemibold'),
+         url('./LatoSemibold.ttf') format('ttf'),
+};
+
+@font-face {
+    font-family: 'League-Gothic';
+    src: local('LeagueGothic'),
+         url('./League\ Gothic.ttf') format('ttf'),
+}
