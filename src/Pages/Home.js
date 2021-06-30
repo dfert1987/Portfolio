@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../Components/Nav/NavBar';
 import Hero from '../Components/Hero/Hero';
-import Masonry from '../Components/Masonry';
+import Masonry from '../Components/Masonry/Masonry';
 
 const Home = () => {
   return (
