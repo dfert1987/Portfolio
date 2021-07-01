@@ -1,6 +1,6 @@
 import React from 'react';
 import Floppy from '../../Images/floppy.png';
-import Link from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './Masonry.css';
 
 const Masonry = () => {
@@ -11,35 +11,23 @@ const Masonry = () => {
         <div className='masonry-plus-images'>
           <img className='floppy1' src={Floppy} />
           <div className='masonry-container'>
-            <Link to='/about'>
-              <div className='card about'>
-                <h3 className='about-text'>ABOUT</h3>
-              </div>
+            <Link className='card about' to='/about'>
+              <h3 className='about-text'>ABOUT</h3>
             </Link>
-            <Link to='/resume'>
-              <div className='card resume'>
-                <h3 className='resume-text'>RESUME</h3>
-              </div>
+            <Link className='card resume' to='/resume'>
+              <h3 className='resume-text'>RESUME</h3>
             </Link>
-            <Link to='/projects'>
-              <div className='card projects'>
-                <h3 className='projects-text'>PROJECTS</h3>
-              </div>
+            <Link className='card projects' to='/projects'>
+              <h3 className='projects-text'>PROJECTS</h3>
             </Link>
-            <Link to='/blogs'>
-              <div className='card blogs'>
-                <h3 className='blogs-text'>BLOGS</h3>
-              </div>
+            <Link className='card blogs' to='/blogs'>
+              <h3 className='blogs-text'>BLOGS</h3>
             </Link>
-            <Link to='/design'>
-              <div className='card design'>
-                <h3 className='design-text'>DESIGN</h3>
-              </div>
+            <Link className='card design' to='/design'>
+              <h3 className='design-text'>DESIGN</h3>
             </Link>
-            <Link to='/contact'>
-              <div className='card contact'>
+            <Link className='card contact' to='/contact'>
                 <h3 className='contact-text'>CONTACT</h3>
-              </div>
             </Link>
           </div>
           <img className='floppy' src={Floppy} />

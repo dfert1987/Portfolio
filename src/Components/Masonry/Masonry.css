@@ -96,31 +96,37 @@
   background-position: top -15px center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
   height: 25%;
 }
 
 .resume {
   background-image: url('../../Images/resumeyellow.png');
+  cursor: pointer;
   height: 75%;
 }
 
 .projects {
   background-image: url('../../Images/projectsspink.png');
+  cursor: pointer;
   height: 50%;
 }
 
 .blogs {
   background-image: url('../../Images/blogsdark.png');
+  cursor: pointer;
   height: 50%;
 }
 
 .design {
   background-image: url('../../Images/designyellow.png');
+  cursor: pointer;
   height: 66.666%;
 }
 
 .contact {
   background-image: url('../../Images/contact.png');
+  cursor: pointer;
   height: 33.333%;
 }
 
