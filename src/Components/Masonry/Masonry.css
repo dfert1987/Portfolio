@@ -1,0 +1,157 @@
+:root {
+  --primary: #fff;
+  --turquoise: #08a4b3;
+  --dark: #042443;
+  --yellow: #fbdb04;
+  --red: #ea5e68;
+  --League: 'LeagueGothic';
+  --Lato: 'Lato-SemiBold';
+}
+
+.masonry-background {
+  align-items: center;
+  background-color: var(--red);
+  border-top: 5px solid var(--primary);
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+  opacity: 100%;
+  width: 100vw;
+}
+
+.masonry-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  height: 50vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  width: 60vw;
+}
+
+.masonry-text {
+  color: var(--primary);
+  font-family: var(--League);
+  font-size: 50px;
+  margin-bottom: 0.33em;
+  margin-top: 1em;
+  text-shadow: 3px 2px var(--dark);
+}
+
+.masonry-plus-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  align-items: center;
+  background-color: var(--primary);
+  background-position: center;
+  background-size: cover;
+  border: 5px solid var(--primary);
+  box-sizing: border-box;
+  color: var(--primary);
+  display: flex;
+  flex-grow: 0;
+  font-family: var(--Lato);
+  font-size: 1.75rem;
+  font-weight: bold;
+  height: 50%;
+  justify-content: center;
+  outline: 5px solid var(--primary);
+  text-decoration: none;
+  text-shadow: 2px 2px 5px black;
+  transition: all 0.2s linear;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.about-text {
+  margin-left: 1.5em;
+}
+
+.resume-text {
+  margin-bottom: 5.5em;
+  margin-right: 1.5em;
+}
+
+.blogs-text {
+  margin-left: 4em;
+}
+
+.projects-text {
+  margin-bottom: 3em;
+}
+
+.floppy1 {
+  height: 15em;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.floppy {
+  height: 15em;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.about {
+  background-image: url('../../Images/bluestandup.png');
+  background-position: top -15px center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  height: 25%;
+}
+
+.resume {
+  background-image: url('../../Images/resumeyellow.png');
+  cursor: pointer;
+  height: 75%;
+}
+
+.projects {
+  background-image: url('../../Images/projectsspink.png');
+  cursor: pointer;
+  height: 50%;
+}
+
+.blogs {
+  background-image: url('../../Images/blogsdark.png');
+  cursor: pointer;
+  height: 50%;
+}
+
+.design {
+  background-image: url('../../Images/designyellow.png');
+  cursor: pointer;
+  height: 66.666%;
+}
+
+.contact {
+  background-image: url('../../Images/contact.png');
+  cursor: pointer;
+  height: 33.333%;
+}
+
+.bio-container {
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 60%;
+}
+
+.bio-title {
+  font-family: var(--League);
+  font-size: 45px;
+  text-shadow: 3px 2px var(--dark);
+}
+
+.bio {
+  font-family: var(--Lato);
+  font-size: 20px;
+  margin-bottom: 0.5em;
+}

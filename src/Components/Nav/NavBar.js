@@ -60,6 +60,15 @@ const NavBar = () => {
                   BLOGS
                 </Link>
               </li>
+              <li className='nav-item-blogs'>
+                <Link
+                  to='/design'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  DESIGN
+                </Link>
+              </li>
               <li className='nav-item-contact'>
                 <Link
                   to='/contact'

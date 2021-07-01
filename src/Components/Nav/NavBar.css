@@ -50,7 +50,7 @@
 .nav-menu {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(7, auto);
   justify-content: end;
   margin-left: 16em;
   list-style: none;
