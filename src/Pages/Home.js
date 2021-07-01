@@ -2,13 +2,16 @@ import React from 'react';
 import NavBar from '../Components/Nav/NavBar';
 import Hero from '../Components/Hero/Hero';
 import Masonry from '../Components/Masonry/Masonry';
+import './Home.css';
 
 const Home = () => {
   return (
     <>
       <NavBar />
       <Hero />
-      <Masonry />
+      <div className='masonry-section'>
+        <Masonry  />
+      </div>
     </>
   );
 };
