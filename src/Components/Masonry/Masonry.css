@@ -59,7 +59,13 @@
   height: 50%;
   justify-content: center;
   outline: 5px solid var(--primary);
+  text-decoration: none;
   text-shadow: 2px 2px 5px black;
+  transition: all 0.2s linear;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .about-text {
