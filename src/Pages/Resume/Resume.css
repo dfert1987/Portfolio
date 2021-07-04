@@ -1,0 +1,50 @@
+:root {
+  --primary: #fff;
+  --turquoise: #08a4b3;
+  --dark: #042443;
+  --yellow: #fbdb04;
+  --red: #ea5e68;
+  --League: 'LeagueGothic';
+  --Lato: 'Lato-SemiBold';
+}
+
+.resume-container {
+  background-color: var(--turquoise);
+  border: 5px solid var(--dark);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.resume-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.resume-title {
+  align-items: center;
+  color: var(--primary);
+  display: flex;
+  font-family: var(--League);
+  font-size: 8rem;
+  justify-content: center;
+  line-height: 0.1em;
+  margin: 0.6em auto 20px auto;
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
+  width: 70%;
+}
+
+.resume-title:before,
+.resume-title:after {
+  content: '';
+  border-top: 8px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.resume-title:after {
+  margin: 0 0 0 20px;
+}

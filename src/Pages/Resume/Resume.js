@@ -6,7 +6,13 @@ const Resume = () => {
   return (
     <>
       <NavBar />
-      <div className='resume-container'></div>
+      <div className='resume-container'>
+        <div className='rsume-title-container'>
+          <div className='rectangle'>
+            <h1 className='resume-title'>RESUME</h1>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
