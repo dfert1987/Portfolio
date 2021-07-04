@@ -48,7 +48,7 @@
   background-color: var(--primary);
   background-position: center;
   background-size: cover;
-  border: 5px solid var(--primary);
+  border: 2px solid var(--primary);
   box-sizing: border-box;
   color: var(--primary);
   display: flex;
