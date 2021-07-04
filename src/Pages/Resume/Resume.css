@@ -14,7 +14,9 @@
   border-radius: 3px;
   display: flex;
   flex-direction: column;
+  height: 150vh;
   margin: 1em;
+  text-align: center;
 }
 
 .resume-title-container {
@@ -47,4 +49,35 @@
 
 .resume-title:after {
   margin: 0 0 0 20px;
+}
+
+.pdf {
+  border: 5px solid var(--dark);
+  border-radius: 3px;
+}
+
+.pdf-container {
+  height: 100%;
+}
+
+.download-title-container {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.download-title {
+  color: var(--primary);
+  font-family: var(--League);
+  font-size: 50px;
+  margin-bottom: 0.5em;
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
