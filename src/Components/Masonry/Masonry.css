@@ -14,8 +14,9 @@
   border-top: 5px solid var(--primary);
   display: flex;
   flex-direction: column;
-  height: 110vh;
+  height: 100%;
   opacity: 100%;
+  padding-bottom: 1em;
   width: 100vw;
 }
 
