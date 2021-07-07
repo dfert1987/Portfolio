@@ -320,9 +320,42 @@
   .image-container {
     display: none;
   }
+
+  @media screen and (max-height: 560px) {
+    .mobile-titles-container {
+      margin-top: 2em;
+    }
+  }
+
+  @media screen and (max-height: 462px) {
+    .mobile-titles-container {
+      margin-top: 0em;
+    }
+  }
+
+  @media screen and (max-height: 425px) {
+    .mobile-titles-container {
+      margin-top: 2em;
+    }
+
+    .mobile-intro {
+      font-size: 1em;
+    }
+    .mobile-name {
+      font-size: 3em;
+    }
+    .mobile-description {
+      font-size: 2.75em;
+    }
+  }
+  @media screen and (max-height: 313px) {
+    .mobile-titles-container {
+      margin-top: 0em;
+    }
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 794px) {
   .mobile-titles-container {
     margin-top: 3em;
   }
@@ -337,6 +370,52 @@
 
   .mobile-cpu {
     height: 25%;
+  }
+
+  @media screen and (max-height: 611px) {
+    .mobile-titles-container {
+      margin-top: 0em;
+    }
+  }
+  @media screen and (max-height: 558px) {
+    .mobile-titles-container {
+      margin-top: 5em;
+    }
+    .mobile-intro {
+      font-size: 1.5em;
+    }
+    .mobile-name {
+      font-size: 4em;
+    }
+    .mobile-description {
+      font-size: 3em;
+    }
+  }
+  @media screen and (max-height: 410px) {
+    .mobile-titles-container {
+      margin-top: 1em;
+    }
+  }
+
+  @media screen and (max-height: 341px) {
+    .mobile-titles-container {
+      margin-top: 0em;
+    }
+    .mobile-intro {
+      font-size: 1em;
+    }
+    .mobile-name {
+      font-size: 2em;
+    }
+    .mobile-description {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media screen and (max-width: 5526px) {
+  .mobile-intro {
+    width: 5em;
   }
 }
 
@@ -363,6 +442,44 @@
 
   .mobile-description {
     font-size: 3em;
+  }
+  @media screen and (max-height: 586px) {
+    .mobile-image-container {
+      margin-top: 0em;
+    }
+  }
+  @media screen and (max-height: 586px) {
+    .mobile-image-container {
+      display: none;
+    }
+  }
+  @media screen and (max-height: 437px) {
+    .mobile-intro {
+      font-size: 1.25rem;
+    }
+    .mobile-name {
+      font-size: 3.5rem;
+    }
+    .mobile-description {
+      font-size: 2.5rem;
+    }
+    .mobile-titles-container {
+      margin-top: 1em;
+    }
+  }
+  @media screen and (max-height: 306px) {
+    .mobile-intro {
+      font-size: 1rem;
+    }
+    .mobile-name {
+      font-size: 2rem;
+    }
+    .mobile-description {
+      font-size: 1.5rem;
+    }
+    .mobile-titles-container {
+      margin-top: 1em;
+    }
   }
 }
 
@@ -499,9 +616,7 @@
 }
 
 @media screen and (max-height: 225px) {
-  .titles-container{
-    display: none
-  };
+  .titles-container {
+    display: none;
+  }
 }
-
-
