@@ -8,7 +8,7 @@ const Masonry = () => {
     <div className='masonry-background'>
       <h2 className='masonry-text'>SOME TEXT ABOUT FRONT END DEVELOPMENT</h2>
       <div className='masonry-plus-images'>
-        <img className='floppy1' src={Floppy} />
+        <img className='floppy1' src={Floppy} alt='floppy disk' />
         <div className='masonry-container'>
           <Link className='card about' to='/about'>
             <h3 className='about-text'>ABOUT</h3>
@@ -29,7 +29,7 @@ const Masonry = () => {
             <h3 className='contact-text'>CONTACT</h3>
           </Link>
         </div>
-        <img className='floppy' src={Floppy} />
+        <img className='floppy' src={Floppy} alt='floppy disk' />
       </div>
       <div className='bio-container'>
         <h2 className='bio-title'>BIO:</h2>

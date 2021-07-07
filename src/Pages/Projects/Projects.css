@@ -1,0 +1,116 @@
+:root {
+  --primary: #fff;
+  --turquoise: #08a4b3;
+  --dark: #042443;
+  --yellow: #fbdb04;
+  --red: #ea5e68;
+  --League: 'LeagueGothic';
+  --Lato: 'Lato-SemiBold';
+}
+
+.projects-container {
+  background-color: var(--turquoise);
+  border: 5px solid var(--dark);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  margin: 1em;
+}
+
+.projects-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.projects-title {
+  align-items: center;
+  color: var(--primary);
+  display: flex;
+  font-family: var(--League);
+  font-size: 8rem;
+  justify-content: center;
+  line-height: 0.1em;
+  margin: 0.6em auto 20px auto;
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
+  width: 70%;
+}
+
+.projects-title:before,
+.projects-title:after {
+  content: '';
+  border-top: 8px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.projects-title:after {
+  margin: 0 0 0 20px;
+}
+
+.card-container {
+  display: flex;
+  height: 90%;
+  margin: 2em;
+  width: 90%;
+}
+
+.front {
+  height: 40%;
+}
+
+.back {
+  height: 40%;
+}
+
+.front-image {
+  border: solid var(--primary) 3px;
+  border-radius: 4px;
+  height: 80%;
+}
+
+.name-description-container {
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  padding: 0.25em;
+}
+
+.project-name {
+  font-family: var(--League);
+  font-size: 25px;
+}
+
+.project-subtitle {
+  font-family: var(--Lato);
+  font-style: italic;
+}
+
+.info-and-techs {
+  color: var(--primary);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--Lato);
+  padding: 0.5em;
+}
+
+.info {
+  margin-bottom: 0.25em;
+}
+
+.techs {
+  display: flex;
+  flex-direction: row;
+  padding: 0.25em;
+}
+
+.tech1 {
+  margin-right: 0.5em;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
