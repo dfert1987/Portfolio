@@ -1,6 +1,5 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
-import Button from '../../Components/Button/Button';
 import Res from '../../Images/resume.pdf';
 import './Resume.css';
 

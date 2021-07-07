@@ -1,7 +1,6 @@
 import React from 'react';
 import CPU from '../../Images/flippedcpu.png';
 import CPU2 from '../../Images/cpu.png';
-
 import './Hero.css';
 import '../../App.css';
 
