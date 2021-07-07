@@ -14,8 +14,9 @@
   border-top: 5px solid var(--primary);
   display: flex;
   flex-direction: column;
-  height: 110vh;
+  height: 100%;
   opacity: 100%;
+  padding-bottom: 1em;
   width: 100vw;
 }
 
@@ -154,4 +155,31 @@
   font-family: var(--Lato);
   font-size: 20px;
   margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 1204px) {
+  .floppy1 {
+    height: 10em;
+  }
+
+  .floppy {
+    height: 10em;
+  }
+}
+
+@media screen and (max-height: 1204px) {
+  .card {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-height: 408px) {
+  .resume-text {
+    margin-bottom: 0em;
+    margin-right: 0em;
+  }
+
+  .projects-text {
+    margin-bottom: 0em;
+  }
 }
