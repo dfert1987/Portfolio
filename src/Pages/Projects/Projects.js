@@ -8,6 +8,9 @@ import typescriptLogo from '../../Images/typescript.png';
 import nodeLogo from '../../Images/node.png';
 import jsLogo from '../../Images/js.png';
 import nativeLogo from '../../Images/reactnative.png';
+import homerCard from '../../Images/homercard.png';
+import anglerCard from '../../Images/anglercard.png';
+import ncCard from '../../Images/nccard.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -20,10 +23,11 @@ const Projects = () => {
             <h1 className='resume-title'>PROJECTS</h1>
           </div>
         </div>
+        <h2 className='directions'>HOVER OVER CARDS FOR MORE INFO</h2>
         <div className='card-section'>
           <div className='card-wrapper'>
             <div className='image-container'>
-              <img className='image' src={fakeImage} />
+              <img className='image' src={homerCard} />
             </div>
             <div className='details'>
               <div className='center'>
@@ -56,7 +60,7 @@ const Projects = () => {
           </div>
           <div className='card-wrapper'>
             <div className='image-container'>
-              <img className='image' src={fakeImage} />
+              <img className='image' src={ncCard} />
             </div>
             <div className='details'>
               <div className='center'>
@@ -89,7 +93,7 @@ const Projects = () => {
           </div>
           <div className='card-wrapper'>
             <div className='image-container'>
-              <img className='image' src={fakeImage} />
+              <img className='image' src={anglerCard} />
             </div>
             <div className='details'>
               <div className='center'>

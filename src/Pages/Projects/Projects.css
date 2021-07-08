@@ -82,6 +82,7 @@
 }
 
 .card-wrapper:hover .image-container .image {
+  cursor: pointer;
   opacity: 0.5;
   transform: translateX(30%);
 }
@@ -98,6 +99,8 @@
 }
 
 .card-wrapper:hover .details {
+  cursor: pointer;
+
   transform: perspective(2000px) rotate(0deg);
 }
 
@@ -123,7 +126,7 @@
   font-family: var(--Lato);
   font-size: 20px;
   font-style: italic;
-  margin-top: .33em;
+  margin-top: 0.33em;
 }
 
 .project-description {
@@ -155,7 +158,6 @@
   height: 2em;
 }
 
-
 .button-container {
   display: flex;
   flex-direction: row;
@@ -174,6 +176,15 @@
   margin-right: 0.5em;
   margin-top: 0.5em;
   text-align: left;
+}
+
+.directions {
+  color: var(--red);
+  font-family: var(--League);
+  font-size: 40px;
+  margin-top: 1em;
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
 }
 
 @media (min-width: 600px) {
