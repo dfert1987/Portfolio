@@ -2,6 +2,8 @@ import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
 import fakeImage from '../../Images/mepork.jpeg';
+import reactLogo from '../../Images/react.png';
+import railsLogo from '../../Images/rails.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -14,34 +16,71 @@ const Projects = () => {
             <h1 className='resume-title'>PROJECTS</h1>
           </div>
         </div>
-        <div className='card-container'>
-          <div className='front'>
-            <img className='front-image' src={fakeImage} alt='Homer Preview' />
-            <div className='name-description-container'>
-              <h3 className='project-name'>HOMER</h3>
-              <p className='project-subtitle'>Chicago Sports Blog</p>
+        <div className='card-section'>
+          <div className='card-wrapper'>
+            <div className='image-container'>
+              <img className='image' src={fakeImage} />
             </div>
-          </div>
-          <div className='back'>
-            <div className='info-and-techs'>
-              <p className='info'>
-                HOMER is a Chicago sports blog, built to function like a blog
-                one would build using Wordrpess. It's complete with a Rich Text
-                Editor, full auth and a Rails API backend. This is my current
-                project, but it should hopefully be deployed soon(ish).
-              </p>
-              <div className='techs'>
-                <p className='tech1'>React</p>
-                <p className='tech2'>Rails</p>
+            <div className='details'>
+              <div className='center'>
+                <h1 className='project-name'>HOMER</h1>
+                <h3 className='subtitle'>A Sports Blog</h3>
+                <p className='project-description'>
+                  HOMER is a Chicago sports themed sports blog in the style of
+                  something you may make with Wordpress. However, HOMER was made
+                  from scratch and is complete with full auth, admin privelages,
+                  and a rich text editor. This one is a work in process, but
+                  will hopefully be finished in the near future.
+                </p>
+                <div className='button-container'>
+                  <Button buttonStyle='btn--primary' className='demo-button'>
+                    VIEW DEMO
+                  </Button>
+                  <Button buttonStyle='btn--outline' className='demo-button'>
+                    VISIT REPO
+                  </Button>
+                </div>
+                <div className='stack-container'>
+                  <h3 className='stack-title'>Stack:</h3>
+                  <div className='logos'>
+                    <img className='logo1' src={reactLogo} />
+                    <img className='logo2' src={railsLogo} />
+                  </div>
+                </div>
               </div>
             </div>
-            <div className='button-container'>
-              <Button className='demo' buttonStyle='btn--primary'>
-                VIEW A DEMO
-              </Button>
-              <Button className='github' buttonStyle='btn--outline'>
-                GITHUB REPO
-              </Button>
+          </div>
+          <div className='card-wrapper'>
+            <div className='image-container'>
+              <img className='image' src={fakeImage} />
+            </div>
+            <div className='details'>
+              <div className='center'>
+                <h1 className='project-name'>HOMER</h1>
+                <h3 className='subtitle'>A Sports Blog</h3>
+                <p className='project-description'>
+                  HOMER is a Chicago sports themed sports blog in the style of
+                  something you may make with Wordpress. However, HOMER was made
+                  from scratch and is complete with full auth, admin privelages,
+                  and a rich text editor. This one is a work in process, but
+                  will hopefully be finished in the near future.
+                </p>
+                <div className='button-container'>
+                  <Button buttonStyle='btn--primary' className='demo-button'>
+                    VIEW DEMO
+                  </Button>
+                  <Button buttonStyle='btn--outline' className='demo-button'>
+                    VISIT REPO
+                  </Button>
+                </div>
+                <div className='stack-container'>
+                  <h3 className='stack-title'>Stack:</h3>
+                  <div className='logos'>
+                    <img className='logo1' src={reactLogo} />
+                    <img className='logo2' src={railsLogo} />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -18,15 +18,15 @@
 
 .btn--primary {
   background-color: var(--dark);
-  border: 3px solid var(--primary);
+  border: 3px solid var(--turquoise);
   color: var(--primary);
   transition: all 0.3s ease-out;
 }
 
 .btn--outline {
   background-color: transparent;
-  border: 3px solid var(--dark);
-  color: var(--dark);
+  border: 3px solid var(--turquoise);
+  color: var(--turquoise);
   padding: 8px 20px;
   transition: all 0.3s ease-out;
 }
@@ -103,7 +103,9 @@
 }
 
 .btn--outline:hover {
-  background-color: white;
+  border-color: var(--dark);
+  color: var(--dark);
+  background-color: var(--turquoise);
   transition: all 0.3s ease-out;
 }
 .btn--outline2:hover {
@@ -117,6 +119,8 @@
 }
 
 .btn--primary:hover {
+  border-color: var(--dark);
+  color: var(--dark);
   background-color: transparent;
   transition: all 0.3s ease-out;
 }
