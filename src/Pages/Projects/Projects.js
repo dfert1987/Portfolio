@@ -32,6 +32,13 @@ const Projects = () => {
                   and a rich text editor. This one is a work in process, but
                   will hopefully be finished in the near future.
                 </p>
+                <div className='stack-container'>
+                  <h3 className='stack-title'>Stack:</h3>
+                  <div className='logos'>
+                    <img className='logo1' src={reactLogo} />
+                    <img className='logo2' src={railsLogo} />
+                  </div>
+                </div>
                 <div className='button-container'>
                   <Button buttonStyle='btn--primary' className='demo-button'>
                     VIEW DEMO
@@ -39,13 +46,6 @@ const Projects = () => {
                   <Button buttonStyle='btn--outline' className='demo-button'>
                     VISIT REPO
                   </Button>
-                </div>
-                <div className='stack-container'>
-                  <h3 className='stack-title'>Stack:</h3>
-                  <div className='logos'>
-                    <img className='logo1' src={reactLogo} />
-                    <img className='logo2' src={railsLogo} />
-                  </div>
                 </div>
               </div>
             </div>
