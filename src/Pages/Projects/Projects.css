@@ -123,6 +123,7 @@
   font-family: var(--Lato);
   font-size: 20px;
   font-style: italic;
+  margin-top: .33em;
 }
 
 .project-description {
@@ -147,7 +148,13 @@
 
 .logo2 {
   height: 2em;
+  margin-right: 1em;
 }
+
+.logo3 {
+  height: 2em;
+}
+
 
 .button-container {
   display: flex;
