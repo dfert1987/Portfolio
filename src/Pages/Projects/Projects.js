@@ -121,12 +121,12 @@ const Projects = () => {
                   their own personal tacklebox.
                 </p>
                 <div className='button-container'>
-                  <a to='https://www.youtube.com/watch?v=-zv0Unm8neM'>
+                  <a href='https://www.youtube.com/watch?v=-zv0Unm8neM'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
                   </a>
-                  <a to='https://github.com/dfert1987/AnglerApp'>
+                  <a href='https://github.com/dfert1987/AnglerApp'>
                     <Button buttonStyle='btn--outline' className='demo-button'>
                       VISIT REPO
                     </Button>
