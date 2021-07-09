@@ -14,7 +14,7 @@ const About = () => {
             <h1 className='about-title'>ABOUT</h1>
           </div>
         </div>
-        <img src={Comedy} className='mobile-image' />
+        <img src={Comedy} className='mobile-image' alt='David graphic'/>
         <div className='body-container'>
           <div className='text-container'>
             <h4 className='about-subtitle'>MY STORY:</h4>
@@ -96,8 +96,8 @@ const About = () => {
             </div>
           </div>
           <div className='graphic-container'>
-            <img className='graphic' src={Comedy} />
-            <img className='graphic-cpu' src={CPU} />
+            <img className='graphic' src={Comedy} alt='David graphic'/>
+            <img className='graphic-cpu' src={CPU} alt='old computer'/>
           </div>
         </div>
         <div className='small-screen-bullets'>

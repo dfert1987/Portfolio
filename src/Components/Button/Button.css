@@ -1,29 +1,32 @@
 :root {
   --primary: #fff;
-  --turquoise: #339bcf;
+  --turquoise: #08a4b3;
+  --dark: #042443;
   --black: black;
+  --League: 'LeagueGothic';
+  --Lato: 'Lato-SemiBold';
 }
 
 .btn {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-family: 'LeagueGothic';
+  font-family: var(--League);
   outline: none;
   padding: 8px 30px;
 }
 
 .btn--primary {
-  background-color: var(--turquoise);
-  border: 1px solid var(--black);
-  color: var(--black);
+  background-color: var(--dark);
+  border: 3px solid var(--turquoise);
+  color: var(--primary);
   transition: all 0.3s ease-out;
 }
 
 .btn--outline {
   background-color: transparent;
-  border: 1px solid var(--black);
-  color: var(--black);
+  border: 3px solid var(--turquoise);
+  color: var(--turquoise);
   padding: 8px 20px;
   transition: all 0.3s ease-out;
 }
@@ -100,7 +103,9 @@
 }
 
 .btn--outline:hover {
-  background-color: white;
+  border-color: var(--dark);
+  color: var(--dark);
+  background-color: var(--turquoise);
   transition: all 0.3s ease-out;
 }
 .btn--outline2:hover {
@@ -114,6 +119,8 @@
 }
 
 .btn--primary:hover {
+  border-color: var(--dark);
+  color: var(--dark);
   background-color: transparent;
   transition: all 0.3s ease-out;
 }

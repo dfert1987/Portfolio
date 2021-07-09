@@ -1,7 +1,6 @@
 import React from 'react';
 import CPU from '../../Images/flippedcpu.png';
 import CPU2 from '../../Images/cpu.png';
-
 import './Hero.css';
 import '../../App.css';
 
@@ -16,14 +15,14 @@ const Hero = () => {
             <h3 className='mobile-description'>DEVELOPER AND MORE</h3>
           </div>
           <div className='image-container'>
-            <img className='cpu' src={CPU} />
+            <img className='cpu' src={CPU} alt='old computer'/>
           </div>
           <div className='mobile-image-container'>
             <div>
-              <img className='mobile-cpu' src={CPU} />
+              <img className='mobile-cpu' src={CPU} alt='old computer' />
             </div>
             <div>
-              <img className='cpu2' src={CPU2} />
+              <img className='cpu2' src={CPU2} alt='old computer' />
             </div>
           </div>
         </div>
