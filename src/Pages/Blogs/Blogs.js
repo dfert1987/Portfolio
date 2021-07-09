@@ -10,7 +10,7 @@ const Blogs = () => {
       <div className='blogs-container'>
         <div className='blogs-title-container'>
           <div className='rectangle'>
-            <h1 className='blogs-title'>BlOGS</h1>
+            <h1 className='blogs-title'>BLOGS</h1>
           </div>
         </div>
       </div>
