@@ -1,7 +1,6 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
-import fakeImage from '../../Images/mepork.jpeg';
 import reactLogo from '../../Images/react.png';
 import railsLogo from '../../Images/rails.png';
 import typescriptLogo from '../../Images/typescript.png';
@@ -11,6 +10,8 @@ import nativeLogo from '../../Images/reactnative.png';
 import homerCard from '../../Images/homercard.png';
 import anglerCard from '../../Images/anglercard.png';
 import ncCard from '../../Images/nccard.png';
+import crateCard from '../../Images/cratecard.png';
+import bleCard from '../../Images/BLE.png';
 import './Projects.css';
 
 const Projects = () => {
@@ -27,7 +28,7 @@ const Projects = () => {
         <div className='card-section'>
           <div className='card-wrapper'>
             <div className='image-container'>
-              <img className='image' src={homerCard} />
+              <img className='image' src={homerCard} alt='Homer Blog' />
             </div>
             <div className='details'>
               <div className='center'>
@@ -43,8 +44,8 @@ const Projects = () => {
                 <div className='stack-container'>
                   <h3 className='stack-title'>Stack:</h3>
                   <div className='logos'>
-                    <img className='logo1' src={reactLogo} />
-                    <img className='logo2' src={railsLogo} />
+                    <img className='logo1' src={reactLogo} alt='React Logo' />
+                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
                   </div>
                 </div>
                 <div className='button-container'>
@@ -60,7 +61,7 @@ const Projects = () => {
           </div>
           <div className='card-wrapper'>
             <div className='image-container'>
-              <img className='image' src={ncCard} />
+              <img className='image' src={ncCard} alt='NeuroCann' />
             </div>
             <div className='details'>
               <div className='center'>
@@ -75,9 +76,13 @@ const Projects = () => {
                 <div className='stack-container'>
                   <h3 className='stack-title'>Stack:</h3>
                   <div className='logos'>
-                    <img className='logo1' src={reactLogo} />
-                    <img className='logo2' src={nodeLogo} />
-                    <img className='logo3' src={typescriptLogo} />
+                    <img className='logo1' src={reactLogo} alt='React Logo' />
+                    <img className='logo2' src={nodeLogo} alt='Node Logo' />
+                    <img
+                      className='logo3'
+                      src={typescriptLogo}
+                      alt='Typscript Logo'
+                    />
                   </div>
                 </div>
                 <div className='button-container'>
@@ -93,7 +98,7 @@ const Projects = () => {
           </div>
           <div className='card-wrapper'>
             <div className='image-container'>
-              <img className='image' src={anglerCard} />
+              <img className='image' src={anglerCard} alt='Angler App' />
             </div>
             <div className='details'>
               <div className='center'>
@@ -117,8 +122,8 @@ const Projects = () => {
                 <div className='stack-container'>
                   <h3 className='stack-title'>Stack:</h3>
                   <div className='logos'>
-                    <img className='logo1' src={reactLogo} />
-                    <img className='logo2' src={railsLogo} />
+                    <img className='logo1' src={reactLogo} alt='React Logo' />
+                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
                   </div>
                 </div>
               </div>
@@ -126,7 +131,11 @@ const Projects = () => {
           </div>
           <div className='card-wrapper'>
             <div className='image-container'>
-              <img className='image' src={fakeImage} />
+              <img
+                className='image'
+                src={crateCard}
+                alt='Global Crate Digger'
+              />
             </div>
             <div className='details'>
               <div className='center'>
@@ -148,8 +157,8 @@ const Projects = () => {
                 <div className='stack-container'>
                   <h3 className='stack-title'>Stack:</h3>
                   <div className='logos'>
-                    <img className='logo1' src={jsLogo} />
-                    <img className='logo2' src={railsLogo} />
+                    <img className='logo1' src={jsLogo} alt='Javascript Logo' />
+                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
                   </div>
                 </div>
               </div>
@@ -157,7 +166,7 @@ const Projects = () => {
           </div>
           <div className='card-wrapper'>
             <div className='image-container'>
-              <img className='image' src={fakeImage} />
+              <img className='image' src={bleCard} alt='Big League Eats' />
             </div>
             <div className='details'>
               <div className='center'>
@@ -181,8 +190,12 @@ const Projects = () => {
                 <div className='stack-container'>
                   <h3 className='stack-title'>Stack:</h3>
                   <div className='logos'>
-                    <img className='logo1' src={nativeLogo} />
-                    <img className='logo2' src={railsLogo} />
+                    <img
+                      className='logo1'
+                      src={nativeLogo}
+                      alt='React Native Logo'
+                    />
+                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
                   </div>
                 </div>
               </div>
