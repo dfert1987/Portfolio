@@ -53,6 +53,7 @@
 .card-section {
   display: grid;
   grid-gap: 16rem;
+  grid-row-gap: 3em;
   margin-bottom: 2em;
   margin-left: auto;
   margin-right: auto;
