@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
+import quill from '../../Images/quill.png';
 
 import './Blogs.css';
 
@@ -15,32 +16,39 @@ const Blogs = () => {
           </div>
         </div>
         <div className='cards-container'>
-          <div className='blog-card'>
-            <div className='blog-card-background'>
-              <div className='blog-card-background-wrapper'>
-                <div className='blog-card-background-main'>
-                  <div className='blog-card-background-layer'></div>
-                </div>
+          <div class='blog-card spring-fever'>
+            <div class='title-content'>
+              <h3 className='titles'>
+                <a href='https://davidj-fertitta.medium.com/an-ultra-quick-guide-to-quill-js-1aae1ac59d56'>
+                  An Ultra Quick Guide to Quill JS
+                </a>
+              </h3>
+              <div class='tags'>
+                <p>#React, #Rails, #Quill.js</p>
               </div>
             </div>
-            <div className='blog-card-head'>
-              <span className='date-box'>
-                <span className='date-day'>11</span>
-                <span className='date_month'>JAN</span>
-              </span>
-            </div>
-            <div className='blog-card-info'>
-              <h3>RICH TEXT EDITORS: QUILL JS</h3>
-              <p>
-                blog preafdafdaslfkj asdlkfj lasdjfldasjfasdfasdfl;kdasjfljadsf
-                jsdlkfjldskj
-              </p>
-              <a href='/'>
-                  <Button buttonStyle='btn--primary' className='blog-button'>
-                      READ MORE
-                  </Button>
+            <div class='card-info'>
+              There are a few rich text editor options out there, but here we’re
+              gonna specifically work with Quill.js. Here we'll learn how to
+              impliment it with a Rails API and a React front end..
+              <a
+                className='read-link'
+                href='https://davidj-fertitta.medium.com/an-ultra-quick-guide-to-quill-js-1aae1ac59d56'
+              >
+                <Button buttonStyle='primary--btn' className='read-button'>
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
               </a>
             </div>
+            <div class='utility-info'>
+              <ul class='utility-list'>
+                <li>
+                  <span class='licon icon-dat'></span>08 Jun 2020
+                </li>
+              </ul>
+            </div>
+            <div class='gradient-overlay'></div>
+            <div class='color-overlay'></div>
           </div>
         </div>
       </div>
