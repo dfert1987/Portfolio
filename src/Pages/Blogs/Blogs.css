@@ -265,6 +265,26 @@ h3:after {
   width: 10%;
 }
 
+.more-blogs {
+  color: var(--primary);
+  font-family: var(--Lato);
+  font-size: 1.5em;
+  margin: 1em;
+  text-align: center;
+  text-shadow: 2px 2px var(--dark);
+}
+
+.blog-link {
+  color: var(--red);
+  margin-left: 0.5em;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.blog-link:hover {
+  color: var(--dark);
+}
+
 @keyframes changeLetter {
   0% {
     width: 10%;
@@ -391,19 +411,24 @@ h3:after {
 .icon-white {
   filter: brightness(10);
 }
+
 .icon-black {
   filter: brightness(0);
   opacity: 0.6;
 }
+
 .icon-like:before {
   background-position: -183px -6px;
 }
+
 .icon-com:before {
   background-position: -63px -4px;
 }
+
 .icon-dat:before {
   background-position: -94px -7px;
 }
+
 .icon-tag:before {
   background-position: -33px -6px;
 }

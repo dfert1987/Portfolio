@@ -396,6 +396,12 @@ const Blogs = () => {
             <div class='color-overlay'></div>
           </div>
         </div>
+        <h3 className='more-blogs'>
+          For More Blogs
+          <a className='blog-link' href='https://davidj-fertitta.medium.com/'>
+            CLICK HERE
+          </a>
+        </h3>
       </div>
     </>
   );
