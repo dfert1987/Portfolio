@@ -136,6 +136,168 @@ const Blogs = () => {
             <div class='gradient-overlay'></div>
             <div class='color-overlay'></div>
           </div>
+          <div class='blog-card five'>
+            <div class='title-content'>
+              <h3 className='titles'>A Model Modal in React</h3>
+              <div class='tags'>
+                <p>#React, #Modals, #UX</p>
+              </div>
+            </div>
+            <div class='card-info card3'>
+              Pop up modals are great UX tools. They’re useful for when you want
+              a user to only see information when they click on certain items.
+              Plus, they allow the information to appear/disappear without the
+              user having to leave the particular route/view that they are
+              on....
+              <a
+                className='read-link'
+                href='https://davidj-fertitta.medium.com/a-model-modal-in-react-3a73b049f226'
+              >
+                <Button buttonStyle='primary--btn' className='read-button'>
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
+            </div>
+            <div class='utility-info'>
+              <ul class='utility-list'>
+                <li>
+                  <span class='licon icon-dat'></span>18 Aug 2020
+                </li>
+              </ul>
+            </div>
+            <div class='gradient-overlay'></div>
+            <div class='color-overlay'></div>
+          </div>
+          <div class='blog-card six'>
+            <div class='title-content'>
+              <h3 className='titles'>Getting to Know the Big O</h3>
+              <div class='tags'>
+                <p>#BigO, #InterviewPrep, #Intro</p>
+              </div>
+            </div>
+            <div class='card-info card3'>
+              If you’re in the business of prepping for your first developer
+              job, Big O Notation is a pretty unavoidable topic. Any literature
+              on the topic of procuring employment in the industry will note
+              that a diligent and prepared job-seeker should be able to...
+              <a
+                className='read-link'
+                href='https://davidj-fertitta.medium.com/getting-to-know-the-big-o-78568316c475'
+              >
+                <Button buttonStyle='primary--btn' className='read-button'>
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
+            </div>
+            <div class='utility-info'>
+              <ul class='utility-list'>
+                <li>
+                  <span class='licon icon-dat'></span>10 Aug 2020
+                </li>
+              </ul>
+            </div>
+            <div class='gradient-overlay'></div>
+            <div class='color-overlay'></div>
+          </div>
+
+          <div class='blog-card seven'>
+            <div class='title-content'>
+              <h3 className='titles'>
+                Optimistic Rendering from a form in React
+              </h3>
+              <div class='tags'>
+                <p>#React, #Rendering, #Forms</p>
+              </div>
+            </div>
+            <div class='card-info card4'>
+              We use forms to allow the user to alter something on the
+              website/app. Sometimes this is a change that occurs on the
+              backend, other times it’s only something the user sees
+              immediately...
+              <a
+                className='read-link'
+                href='https://davidj-fertitta.medium.com/optimistic-rendering-from-a-form-in-react-fbf442ed1ec'
+              >
+                <Button buttonStyle='primary--btn' className='read-button'>
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
+            </div>
+            <div class='utility-info'>
+              <ul class='utility-list'>
+                <li>
+                  <span class='licon icon-dat'></span>3 Aug 2020
+                </li>
+              </ul>
+            </div>
+            <div class='gradient-overlay'></div>
+            <div class='color-overlay'></div>
+          </div>
+
+          <div class='blog-card eight'>
+            <div class='title-content'>
+              <h3 className='titles'>
+                Stacks on Stacks — Stack Navigator React Native
+              </h3>
+              <div class='tags'>
+                <p>#ReactNative, #Stacks, #Screens</p>
+              </div>
+            </div>
+            <div class='card-info card3'>
+              While routes make sense for websites, they don’t seem to be as
+              logical for an app, since you’re not really going to different
+              URLs. This is where Stack Navigator comes in...
+              <a
+                className='read-link'
+                href='https://davidj-fertitta.medium.com/stacks-on-stacks-stack-navigator-react-native-cdb0283f17ac'
+              >
+                <Button buttonStyle='primary--btn' className='read-button'>
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
+            </div>
+            <div class='utility-info'>
+              <ul class='utility-list'>
+                <li>
+                  <span class='licon icon-dat'></span>10 July 2020
+                </li>
+              </ul>
+            </div>
+            <div class='gradient-overlay'></div>
+            <div class='color-overlay'></div>
+          </div>
+
+          <div class='blog-card nine'>
+            <div class='title-content'>
+              <h3 className='titles'>SVG Files and Event Listeners</h3>
+              <div class='tags'>
+                <p>#SVG, #Javascript, #Events</p>
+              </div>
+            </div>
+            <div class='card-info card3'>
+              If you’re in the business of prepping for your first developer
+              job, Big O Notation is a pretty unavoidable topic. Any literature
+              on the topic of procuring employment in the industry will note
+              that a diligent and prepared job-seeker should be able to...
+              <a
+                className='read-link'
+                href='https://davidj-fertitta.medium.com/svg-files-and-event-listeners-8f0cb43d82c0'
+              >
+                <Button buttonStyle='primary--btn' className='read-button'>
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
+            </div>
+            <div class='utility-info'>
+              <ul class='utility-list'>
+                <li>
+                  <span class='licon icon-dat'></span>1 June 2020
+                </li>
+              </ul>
+            </div>
+            <div class='gradient-overlay'></div>
+            <div class='color-overlay'></div>
+          </div>
         </div>
       </div>
     </>
