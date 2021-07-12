@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+.mobile-read-link {
+  display: none;
+}
+
 .blog-instructions {
   color: var(--red);
   font-family: var(--League);
@@ -142,6 +146,15 @@
   transition: all 0.2s;
 }
 
+.title-content .stacks {
+  font-family: var(--League);
+  font-size: 3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-shadow: 2px 2px var(--dark);
+  transition: all 0.2s;
+}
+
 .second .titles {
   color: var(--primary);
   font-family: var(--League);
@@ -186,7 +199,7 @@
 }
 
 .blog-card:hover .card3 {
-  bottom: 0px;
+  bottom: -10px;
   opacity: 1;
 }
 
@@ -395,6 +408,18 @@ h3:after {
   background-position: -33px -6px;
 }
 
+@media (max-width: 1360px) {
+  .cards-container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 942px) {
+  .cards-container {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
 @media (max-width: 750px) {
   .utility-info {
     text-align: center;
@@ -415,9 +440,11 @@ h3:after {
   .utility-info li:last-of-type {
     width: 100%;
   }
+
   .card-info {
     display: none;
   }
+
   .blog-card:hover,
   .title-content {
     margin-top: 40px;
@@ -431,10 +458,28 @@ h3:after {
   .blog-card {
     height: 300px;
   }
+
   .blog-card h3 {
     font-size: 1.3em;
   }
+
   .intro {
     font-size: 0.8em;
+  }
+
+  .tags {
+    position: relative;
+    bottom: 0.8em;
+  }
+
+  .mobile-read-link {
+    display: inline-flex;
+    position: relative;
+    bottom: 0.5em;
+    text-decoration: none;
+  }
+
+  .title-content .stacks {
+    font-size: 2.5em;
   }
 }

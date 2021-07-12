@@ -21,6 +21,17 @@ const Blogs = () => {
               <div class='tags'>
                 <p>#React, #Rails, #Quill.js</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/an-ultra-quick-guide-to-quill-js-1aae1ac59d56'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card1'>
               There are a few rich text editor options out there, but here we’re
@@ -51,6 +62,17 @@ const Blogs = () => {
               <div class='tags'>
                 <p>#Vue.js, #Intro, #Javascript</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/an-introduction-to-vue-js-54f271e5f4e1'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card2'>
               I chose Vue for a number of reasons, including its relatively easy
@@ -58,7 +80,7 @@ const Blogs = () => {
               popularity with amongst devs...
               <a
                 className='read-link'
-                href='https://davidj-fertitta.medium.com/an-ultra-quick-guide-to-quill-js-1aae1ac59d56'
+                href='https://davidj-fertitta.medium.com/an-introduction-to-vue-js-54f271e5f4e1'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -81,6 +103,17 @@ const Blogs = () => {
               <div class='tags'>
                 <p>#React, #Rails, #GoogleMaps</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/slap-a-map-in-that-app-vol-2-a109e9bf007e'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card2'>
               In the fishing app that we’ve been working with, we want the user
@@ -111,6 +144,17 @@ const Blogs = () => {
               <div class='tags'>
                 <p>#React, #Rails, #GoogleMaps</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/slap-a-map-in-that-app-3e0345a5f847'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card3'>
               If you’re like me, you love a good map, particularly if it’s
@@ -142,6 +186,17 @@ const Blogs = () => {
               <div class='tags'>
                 <p>#React, #Modals, #UX</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/a-model-modal-in-react-3a73b049f226'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card3'>
               Pop up modals are great UX tools. They’re useful for when you want
@@ -174,6 +229,17 @@ const Blogs = () => {
               <div class='tags'>
                 <p>#BigO, #InterviewPrep, #Intro</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/getting-to-know-the-big-o-78568316c475'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card3'>
               If you’re in the business of prepping for your first developer
@@ -199,7 +265,6 @@ const Blogs = () => {
             <div class='gradient-overlay'></div>
             <div class='color-overlay'></div>
           </div>
-
           <div class='blog-card seven'>
             <div class='title-content'>
               <h3 className='titles'>
@@ -208,6 +273,17 @@ const Blogs = () => {
               <div class='tags'>
                 <p>#React, #Rendering, #Forms</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/optimistic-rendering-from-a-form-in-react-fbf442ed1ec'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card4'>
               We use forms to allow the user to alter something on the
@@ -233,15 +309,25 @@ const Blogs = () => {
             <div class='gradient-overlay'></div>
             <div class='color-overlay'></div>
           </div>
-
           <div class='blog-card eight'>
             <div class='title-content'>
-              <h3 className='titles'>
-                Stacks on Stacks — Stack Navigator React Native
+              <h3 className='stacks'>
+                Stacks on Stacks — Stack Navigator in React Native
               </h3>
               <div class='tags'>
                 <p>#ReactNative, #Stacks, #Screens</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/stacks-on-stacks-stack-navigator-react-native-cdb0283f17ac'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card3'>
               While routes make sense for websites, they don’t seem to be as
@@ -273,6 +359,17 @@ const Blogs = () => {
               <div class='tags'>
                 <p>#SVG, #Javascript, #Events</p>
               </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/svg-files-and-event-listeners-8f0cb43d82c0'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
             </div>
             <div class='card-info card3'>
               If you’re in the business of prepping for your first developer
