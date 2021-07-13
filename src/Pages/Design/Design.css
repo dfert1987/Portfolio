@@ -174,3 +174,80 @@ input:nth-of-type(5) {
 input:nth-of-type(5):checked ~ main#carousel {
   --position: 5;
 }
+
+@media (max-width: 1050px) {
+  div.item {
+    height: 264.3px;
+    width: 191.34px;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-200px * var(--r)));
+  }
+
+  div.item:nth-of-type(2) {
+    height: 270.3px;
+    width: 193.8px;
+  }
+
+  div.item:nth-of-type(3) {
+    height: 270.3px;
+    width: 210px;
+  }
+
+  div.item:nth-of-type(4) {
+    height: 270.3px;
+    width: 192px;
+  }
+
+  div.item:nth-of-type(5) {
+    height: 270.3px;
+    width: 198px;
+  }
+
+  main#carousel {
+    perspective: 400px;
+  }
+
+  .carousel-container {
+    grid-template-rows: 400px 100px;
+  }
+}
+
+@media (max-width: 702px) {
+  main#carousel {
+    perspective: 250px;
+  }
+
+  div.item {
+    height: 264.3px;
+    width: 191.34px;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-125px * var(--r)));
+  }
+}
+
+@media (max-width: 488px) {
+  div.item {
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-100px * var(--r)));
+  }
+
+  .carousel-container {
+    height: 400px;
+    margin-top: 3em;
+    grid-template-rows: 300px 00px;
+  }
+
+  main#carousel {
+    perspective: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  div.item {
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-70px * var(--r)));
+  }
+  main#carousel {
+    perspective: 120px;
+  }
+}
