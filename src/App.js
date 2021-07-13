@@ -4,6 +4,7 @@ import About from './Pages/About/About';
 import Resume from './Pages/Resume/Resume';
 import Projects from './Pages/Projects/Projects';
 import Blogs from './Pages/Blogs/Blogs';
+import Design from './Pages/Design/Design';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/resume' exact component={Resume} />
           <Route path='/projects' exact component={Projects} />
           <Route path='/blogs' exact component={Blogs} />
+          <Route path='/design' exact component={Design} />
         </Switch>
       </Router>
     </>

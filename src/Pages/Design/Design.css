@@ -1,0 +1,253 @@
+:root {
+  --primary: #fff;
+  --turquoise: #08a4b3;
+  --dark: #042443;
+  --yellow: #fbdb04;
+  --red: #ea5e68;
+  --League: 'LeagueGothic';
+  --Lato: 'Lato-SemiBold';
+}
+
+.design-container {
+  background-color: var(--turquoise);
+  border: 5px solid var(--dark);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 1em;
+}
+
+.posters {
+  color: var(--red);
+  font-family: var(--League);
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
+}
+
+.design-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.design-title {
+  align-items: center;
+  color: var(--primary);
+  display: flex;
+  font-family: var(--League);
+  font-size: 8rem;
+  justify-content: center;
+  line-height: 0.1em;
+  margin: 0.6em auto 20px auto;
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
+  width: 70%;
+}
+
+.design-title:before,
+.design-title:after {
+  border-top: 8px solid;
+  content: '';
+  flex: 1 0 20px;
+  margin: 0 20px 0 0;
+}
+
+.design-title:after {
+  margin: 0 0 0 20px;
+}
+
+.carousel-container {
+  height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: none;
+}
+
+div.item {
+  position: absolute;
+  width: 318.9px;
+  height: 440.5px;
+  border: var(--primary) solid 3px;
+  border-radius: 3px;
+  background-image: url('../../Images/hutongheroes.jpeg');
+  background-size: cover;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+div.item:nth-of-type(1) {
+  --offset: 1;
+  background-image: url('../../Images/hutongheroes.jpeg');
+}
+
+div.item:nth-of-type(2) {
+  --offset: 2;
+  background-image: url('../../Images/christmashams.jpeg');
+  width: 323px;
+  height: 450.5px;
+}
+
+div.item:nth-of-type(3) {
+  --offset: 3;
+  background-image: url('../../Images/tdspace10new.jpg');
+  width: 350px;
+  height: 450.5px;
+}
+
+div.item:nth-of-type(4) {
+  --offset: 4;
+  background-image: url('../../Images/comedy8bit.jpeg');
+  width: 320px;
+  height: 450.5px;
+}
+
+div.item:nth-of-type(5) {
+  --offset: 5;
+  background-image: url('../../Images/ROSETTAPOSTER.jpg');
+  width: 330px;
+  height: 450.5px;
+}
+
+input:nth-of-type(1) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(1):checked ~ main#carousel {
+  --position: 1;
+}
+
+input:nth-of-type(2) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(2):checked ~ main#carousel {
+  --position: 2;
+}
+
+input:nth-of-type(3) {
+  grid-column: 4 /5;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(3):checked ~ main#carousel {
+  --position: 3;
+}
+
+input:nth-of-type(4) {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(4):checked ~ main#carousel {
+  --position: 4;
+}
+
+input:nth-of-type(5) {
+  grid-column: 6 / 7;
+  grid-row: 2 / 3;
+}
+input:nth-of-type(5):checked ~ main#carousel {
+  --position: 5;
+}
+
+@media (max-width: 1050px) {
+  div.item {
+    height: 264.3px;
+    width: 191.34px;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-200px * var(--r)));
+  }
+
+  div.item:nth-of-type(2) {
+    height: 270.3px;
+    width: 193.8px;
+  }
+
+  div.item:nth-of-type(3) {
+    height: 270.3px;
+    width: 210px;
+  }
+
+  div.item:nth-of-type(4) {
+    height: 270.3px;
+    width: 192px;
+  }
+
+  div.item:nth-of-type(5) {
+    height: 270.3px;
+    width: 198px;
+  }
+
+  main#carousel {
+    perspective: 400px;
+  }
+
+  .carousel-container {
+    grid-template-rows: 400px 100px;
+  }
+}
+
+@media (max-width: 702px) {
+  main#carousel {
+    perspective: 250px;
+  }
+
+  div.item {
+    height: 264.3px;
+    width: 191.34px;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-125px * var(--r)));
+  }
+}
+
+@media (max-width: 488px) {
+  div.item {
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-100px * var(--r)));
+  }
+
+  .carousel-container {
+    height: 400px;
+    margin-top: 3em;
+    grid-template-rows: 300px 00px;
+  }
+
+  main#carousel {
+    perspective: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  div.item {
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-70px * var(--r)));
+  }
+  main#carousel {
+    perspective: 120px;
+  }
+}
