@@ -131,7 +131,7 @@ div.item:nth-of-type(4) {
 div.item:nth-of-type(5) {
   --offset: 5;
   background-image: url('../../Images/ROSETTAPOSTER.jpg');
-  width: 330px;
+  width: 350px;
   height: 450.5px;
 }
 
@@ -200,7 +200,7 @@ input:nth-of-type(5):checked ~ main#carousel {
 
   div.item:nth-of-type(5) {
     height: 270.3px;
-    width: 198px;
+    width: 210px;
   }
 
   main#carousel {

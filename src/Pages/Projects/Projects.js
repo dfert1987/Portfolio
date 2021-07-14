@@ -98,7 +98,7 @@ const Projects = () => {
                   </Link>
                   <a href='https://www.neurocann.com/'>
                     <Button buttonStyle='btn--outline' className='demo-button'>
-                      VISIT COMPANY SITE
+                      VISIT SITE
                     </Button>
                   </a>
                 </div>
@@ -120,6 +120,13 @@ const Projects = () => {
                   allows to catalog species of fish caught, as well as organize
                   their own personal tacklebox.
                 </p>
+                <div className='stack-container'>
+                  <h3 className='stack-title'>Stack:</h3>
+                  <div className='logos'>
+                    <img className='logo1' src={reactLogo} alt='React Logo' />
+                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
+                  </div>
+                </div>
                 <div className='button-container'>
                   <a href='https://www.youtube.com/watch?v=-zv0Unm8neM'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
@@ -131,13 +138,6 @@ const Projects = () => {
                       VISIT REPO
                     </Button>
                   </a>
-                </div>
-                <div className='stack-container'>
-                  <h3 className='stack-title'>Stack:</h3>
-                  <div className='logos'>
-                    <img className='logo1' src={reactLogo} alt='React Logo' />
-                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
-                  </div>
                 </div>
               </div>
             </div>
@@ -159,6 +159,13 @@ const Projects = () => {
                   discover and listen to new music from around the globe by
                   interacting with sleek interactive maps!
                 </p>
+                <div className='stack-container'>
+                  <h3 className='stack-title'>Stack:</h3>
+                  <div className='logos'>
+                    <img className='logo1' src={jsLogo} alt='Javascript Logo' />
+                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
+                  </div>
+                </div>
                 <div className='button-container'>
                   <Link to='/'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
@@ -170,13 +177,6 @@ const Projects = () => {
                       VISIT REPO
                     </Button>
                   </a>
-                </div>
-                <div className='stack-container'>
-                  <h3 className='stack-title'>Stack:</h3>
-                  <div className='logos'>
-                    <img className='logo1' src={jsLogo} alt='Javascript Logo' />
-                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
-                  </div>
                 </div>
               </div>
             </div>
@@ -196,6 +196,17 @@ const Projects = () => {
                   vendors. (This is a very rough start, to an idea. Would love
                   to flush this out and fix it up in the future.)
                 </p>
+                <div className='stack-container'>
+                  <h3 className='stack-title'>Stack:</h3>
+                  <div className='logos'>
+                    <img
+                      className='logo1'
+                      src={nativeLogo}
+                      alt='React Native Logo'
+                    />
+                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
+                  </div>
+                </div>
                 <div className='button-container'>
                   <Link to='/'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
@@ -207,17 +218,6 @@ const Projects = () => {
                       VISIT REPO
                     </Button>
                   </a>
-                </div>
-                <div className='stack-container'>
-                  <h3 className='stack-title'>Stack:</h3>
-                  <div className='logos'>
-                    <img
-                      className='logo1'
-                      src={nativeLogo}
-                      alt='React Native Logo'
-                    />
-                    <img className='logo2' src={railsLogo} alt='Rails Logo' />
-                  </div>
                 </div>
               </div>
             </div>

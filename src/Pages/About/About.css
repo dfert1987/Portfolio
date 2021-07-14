@@ -121,7 +121,7 @@
   background-size: contain;
   border-radius: 3px;
   border: 5px solid var(--primary);
-  box-shadow: 3px 2px 8px 5px black;
+  box-shadow: 3px 2px 8px 5px var(--dark);
   height: 10em;
   margin-left: auto;
   margin-right: auto;
