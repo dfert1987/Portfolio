@@ -114,28 +114,40 @@ export default function Contact() {
               <div className='divider'></div>
               <div className='contact-side'>
                 <div className='contact-methods-container'>
-                  <div className='phone-container'>
-                    <h4 className='method phone'>(720) 425-1286</h4>
+                  <div className='phone-email-section'>
+                    <div className='phone-container'>
+                      <h2 className='phone-email phone-title'>
+                        <i className='fas fa-phone-square-alt'></i>PHONE:
+                      </h2>
+                      <h4 className='method phone'>(720) 425-1286</h4>
+                    </div>
+                    <div className='email-container'>
+                      <h2 className='phone-email email-title'>
+                        <i className='fas fa-envelope-square'></i>EMAIL:
+                      </h2>
+                      <h4 className='method email'>
+                        davidj.fertitta@gmail.com
+                      </h4>
+                    </div>
                   </div>
-                  <div className='email-container'>
-                    <h4 className='method email'>davidj.fertitta@gmail.com</h4>
-                  </div>
-                  <div className='linkedIn-container'>
-                    <h4 className='method linkedIn'>
-                      /david-fertitta-99298715b/
-                    </h4>
-                  </div>
-                  <div className='github-container'>
-                    <h4 className='method gitHub'>/dfert1987</h4>
-                  </div>
-                  <div className='twitter-container'>
-                    <h4 className='method twitter'>@FertittaDavid</h4>
-                  </div>
-                  <div className='facebook-container'>
-                    <h4 className='method facebook'>/david.fertitta.1232/</h4>
-                  </div>
-                  <div className='instagram-container'>
-                    <h4 className='method instagram'>/davidj_fertitta/</h4>
+                  <div className='social-container'>
+                    <div className='linkedIn-container'>
+                      <h4 className='method linkedIn'>
+                        /david-fertitta-99298715b/
+                      </h4>
+                    </div>
+                    <div className='github-container'>
+                      <h4 className='method gitHub'>/dfert1987</h4>
+                    </div>
+                    <div className='twitter-container'>
+                      <h4 className='method twitter'>@FertittaDavid</h4>
+                    </div>
+                    <div className='facebook-container'>
+                      <h4 className='method facebook'>/david.fertitta.1232/</h4>
+                    </div>
+                    <div className='instagram-container'>
+                      <h4 className='method instagram'>/davidj_fertitta/</h4>
+                    </div>
                   </div>
                 </div>
               </div>
