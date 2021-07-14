@@ -44,7 +44,7 @@ export default function Contact() {
   };
 
   return (
-    <>
+    <div className='main'>
       <NavBar />
       <div className='contact-container'>
         <div className='contact-title-container'>
@@ -95,7 +95,7 @@ export default function Contact() {
                     <div className='form-button-container'>
                       <div className='btn1'>
                         <Button
-                          className='send'
+                          className=' btn send'
                           type='submit'
                           buttonStyle='btn--primary-send'
                         >
@@ -105,7 +105,7 @@ export default function Contact() {
                       <div>
                         <Button
                           type='button'
-                          className='clear'
+                          className='btn clear'
                           buttonStyle='btn--primary-send'
                           onClick={(e) => clearForm(e)}
                         >
@@ -166,12 +166,57 @@ export default function Contact() {
                       </a>
                     </div>
                   </div>
+                  <div className='mobile-social-container'>
+                    <div className='row'>
+                      <div className='soc-container'>
+                        <a href='https://www.linkedin.com/in/david-fertitta-99298715b/'>
+                          <img
+                            className='soc'
+                            src={LinkedIn}
+                            alt='LinkedIn Logo'
+                          />
+                        </a>
+                      </div>
+                      <div className='soc-container'>
+                        <a href='https://github.com/dfert1987'>
+                          <img className='soc' src={GIT} alt='Github Logo' />
+                        </a>
+                      </div>
+                      </div>
+                      <div className='row'>
+                        <div className='soc-container'>
+                          <a href='https://twitter.com/FertittaDavid'>
+                            <img
+                              className='soc'
+                              src={Twitter}
+                              alt='Twitter Logo'
+                            />
+                          </a>
+                        </div>
+                        <div className='soc-container'>
+                          <a href='https://www.facebook.com/david.fertitta.1232/'>
+                            <img className='soc' src={FB} alt='Facebook Logo' />
+                          </a>
+                        </div>
+                      </div>
+                      <div className='row'>
+                        <div className='soc-container'>
+                          <a href='https://www.instagram.com/davidj_fertitta/'>
+                            <img
+                              className='soc'
+                              src={Insta}
+                              alt='Instagram Logo'
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </>
+    </div>
   );
 }
