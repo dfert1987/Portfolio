@@ -1,53 +1,182 @@
 :root {
-    --primary: #fff;
-    --turquoise: #08a4b3;
-    --dark: #042443;
-    --yellow: #fbdb04;
-    --red: #ea5e68;
-    --League: 'LeagueGothic';
-    --Lato: 'Lato-SemiBold';
-  }
+  --primary: #fff;
+  --turquoise: #08a4b3;
+  --dark: #042443;
+  --yellow: #fbdb04;
+  --red: #ea5e68;
+  --League: 'LeagueGothic';
+  --Lato: 'Lato-SemiBold';
+}
 
-  .contact-container {
-    background-color: var(--turquoise);
-    border: 5px solid var(--dark);
-    border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin: 1em;
-  }
-  
-  .contact-title-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2em;
-    margin-top: 2em;
-  }
-  
-  .contact-title {
-    align-items: center;
-    color: var(--primary);
-    display: flex;
-    font-family: var(--League);
-    font-size: 8rem;
-    justify-content: center;
-    line-height: 0.1em;
-    margin: 0.6em auto 20px auto;
-    text-align: center;
-    text-shadow: 3px 3px var(--dark);
-    width: 70%;
-  }
-  
-  .contact-title:before,
-  .contact-title:after {
-    border-top: 8px solid;
-    content: '';
-    flex: 1 0 20px;
-    margin: 0 20px 0 0;
-  }
-  
-  .contact-title:after {
-    margin: 0 0 0 20px;
-  }
-  
+.contact-container {
+  background-color: var(--turquoise);
+  border: 5px solid var(--dark);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 1em;
+}
+
+.contact-title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.contact-title {
+  align-items: center;
+  color: var(--primary);
+  display: flex;
+  font-family: var(--League);
+  font-size: 8rem;
+  justify-content: center;
+  line-height: 0.1em;
+  margin: 0.6em auto 20px auto;
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
+  width: 70%;
+}
+
+.contact-title:before,
+.contact-title:after {
+  border-top: 8px solid;
+  content: '';
+  flex: 1 0 20px;
+  margin: 0 20px 0 0;
+}
+
+.contact-title:after {
+  margin: 0 0 0 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  max-width: 100%;
+}
+
+.instructions-container {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--League);
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
+}
+
+.main-instructions {
+  color: var(--red);
+  font-size: 5em;
+  text-shadow: 3px 3px var(--dark);
+}
+
+.second-instructions {
+  color: var(--primary);
+  font-family: var(--League);
+  font-size: 4em;
+}
+
+.form-side {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  width: 40%;
+}
+
+.contact-form {
+  background-color: var(--turquoise);
+  border: 5px var(--primary) solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  padding: 1em;
+  width: 80%;
+}
+
+.form-container {
+  background-image: url('../../Images/AdobeStock_135100192.jpeg');
+  background-size: contain;
+  border: 5px var(--primary) solid;
+  border-radius: 5px;
+  box-shadow: 3px 5px 8px 5px var(--dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.message-text {
+  color: var(--primary);
+  font-family: var(--League);
+  font-size: 3.5em;
+  text-align: center;
+  text-shadow: 3px 3px var(--dark);
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid var(--primary);
+  color: var(--primary);
+  font-family: var(--Lato);
+  font-size: 19px;
+  margin-bottom: 1em;
+  padding-bottom: 0.25em;
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  width: 90%;
+}
+
+input::placeholder {
+  color: var(--primary);
+  opacity: 80%;
+}
+
+input:focus {
+  border-bottom: 5px solid var(--red);
+  outline: none;
+}
+
+.message {
+  background-color: transparent;
+  border: 3px solid var(--primary);
+  border-radius: 5px;
+  color: var(--primary);
+  font-family: var(--Lato);
+  font-size: 16px;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  text-align: left;
+  text-shadow: none;
+  width: 95%;
+}
+
+textarea::placeholder {
+  color: var(--primary);
+  font-family: var(--Lato);
+  font-size: 16px;
+  opacity: 80%;
+  text-shadow: none;
+  text-align: left;
+}
+
+textarea:focus {
+  border: 5px solid var(--red);
+  outline: none;
+}
+
+.form-button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  justify-content: left;
+}
+
+.btn1 {
+  margin-right: 1em;
+}

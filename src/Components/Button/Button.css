@@ -49,8 +49,8 @@
 
 .btn--primary-send {
   background-color: transparent;
-  border: 1px solid var(--turquoise);
-  color: var(--turquoise);
+  border: 3px solid var(--primary);
+  color: var(--primary);
 }
 
 .btn--bigoutline {
@@ -125,7 +125,8 @@
   transition: all 0.3s ease-out;
 }
 .btn--primary-send:hover {
-  background-color: var(--turquoise);
+  color: var(--turquoise);
+  background-color: var(--dark);
 }
 
 .btn--bigblueprimary:hover {

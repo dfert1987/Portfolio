@@ -281,7 +281,7 @@
   }
 
   .nav-menu.active {
-    background: var(--black);
+    background: var(--dark);
     left: -1em;
     margin-left: 1em;
     margin-top: 4em;
