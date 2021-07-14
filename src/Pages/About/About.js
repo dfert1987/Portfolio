@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
-import Comedy from '../../Images/90s.png';
+import Comedy from '../../Images/90sshadow.png';
 import CPU from '../../Images/cpu.png';
 import './About.css';
 
