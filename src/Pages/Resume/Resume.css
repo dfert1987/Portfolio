@@ -8,6 +8,10 @@
   --Lato: 'Lato-SemiBold';
 }
 
+.main {
+  height: 100vh;
+}
+
 .resume-container {
   background-color: var(--turquoise);
   border: 5px solid var(--dark);
@@ -76,8 +80,72 @@
   text-shadow: 3px 3px var(--dark);
 }
 
-.main-container {
+.main-containers {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.tablet-pdf {
+  display: none;
+}
+
+@media (max-width: 1025px) {
+  .tablet-pdf {
+    display: flex;
+  }
+  .pdf {
+    display: none;
+  }
+  .main-containers {
+    margin: 3em;
+  }
+}
+
+@media (max-width: 769px) {
+  .pdf-container {
+    margin-right: 0em;
+  }
+  .main-containers {
+    margin: 1em;
+  }
+}
+
+@media (max-width: 415px) {
+  .resume-title {
+    font-size: 4.5em;
+    margin-top: 1em;
+  }
+
+  .download-title-container {
+    font-size: 1em;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  .main-containers {
+    margin: 0.5em;
+  }
+}
+
+@media (max-width: 321px) {
+  .resume-title {
+    font-size: 3em;
+  }
+
+  .download-title-container {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: .5em;
+    margin-top: 1em;
+  }
+
+  .download-title {
+    font-size: 1em;
+    margin: 0;
+  }
+
+  .main-containers {
+    margin: 0.25em;
+  }
 }

@@ -5,7 +5,7 @@ import './Resume.css';
 
 const Resume = () => {
   return (
-    <>
+    <div className='main'>
       <NavBar />
       <div className='resume-container'>
         <div className='resume-title-container'>
@@ -13,7 +13,7 @@ const Resume = () => {
             <h1 className='resume-title'>RESUME</h1>
           </div>
         </div>
-        <div className='main-container'>
+        <div className='main-containers'>
           <div className='download-title-container'>
             <h2 className='download-title'>View or Download Resume Below</h2>
           </div>
@@ -21,15 +21,23 @@ const Resume = () => {
             <embed
               src={Res}
               width='80%'
-              height='90%'
+              height='95%'
               frameBorder='2px'
               type='application/pdf'
               className='pdf'
             ></embed>
+            <embed
+              src={Res}
+              width='100%'
+              height='95%'
+              frameBorder='2px'
+              type='application/pdf'
+              className='tablet-pdf'
+            ></embed>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
