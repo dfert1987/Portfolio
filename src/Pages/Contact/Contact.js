@@ -2,6 +2,11 @@ import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
+import Twitter from '../../Images/twitterblue.png';
+import LinkedIn from '../../Images/linkedinblue.png';
+import Insta from '../../Images/instablue.png';
+import FB from '../../Images/fbblue.png';
+import GIT from '../../Images/githubblue.png';
 import './Contact.css';
 
 export default function Contact() {
@@ -131,22 +136,34 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className='social-container'>
-                    <div className='linkedIn-container'>
-                      <h4 className='method linkedIn'>
-                        /david-fertitta-99298715b/
-                      </h4>
+                    <div className='soc-container'>
+                      <a href='https://www.linkedin.com/in/david-fertitta-99298715b/'>
+                        <img
+                          className='soc'
+                          src={LinkedIn}
+                          alt='LinkedIn Logo'
+                        />
+                      </a>
                     </div>
-                    <div className='github-container'>
-                      <h4 className='method gitHub'>/dfert1987</h4>
+                    <div className='soc-container'>
+                      <a href='https://github.com/dfert1987'>
+                        <img className='soc' src={GIT} alt='Github Logo' />
+                      </a>
                     </div>
-                    <div className='twitter-container'>
-                      <h4 className='method twitter'>@FertittaDavid</h4>
+                    <div className='soc-container'>
+                      <a href='https://twitter.com/FertittaDavid'>
+                        <img className='soc' src={Twitter} alt='Twitter Logo' />
+                      </a>
                     </div>
-                    <div className='facebook-container'>
-                      <h4 className='method facebook'>/david.fertitta.1232/</h4>
+                    <div className='soc-container'>
+                      <a href='https://www.facebook.com/david.fertitta.1232/'>
+                        <img className='soc' src={FB} alt='Facebook Logo' />
+                      </a>
                     </div>
-                    <div className='instagram-container'>
-                      <h4 className='method instagram'>/davidj_fertitta/</h4>
+                    <div className='soc-container'>
+                      <a href='https://www.instagram.com/davidj_fertitta/'>
+                        <img className='soc' src={Insta} alt='Instagram Logo' />
+                      </a>
                     </div>
                   </div>
                 </div>

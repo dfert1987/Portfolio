@@ -203,8 +203,8 @@ textarea:focus {
 .contact-side {
   display: flex;
   flex-direction: column;
-  margin-left: 3em;
   margin-right: auto;
+  margin-top: 3em;
 }
 
 .phone-email-section {
@@ -226,9 +226,20 @@ textarea:focus {
 .method {
   font-family: var(--Lato);
   font-size: 1.5em;
-
 }
 
 i {
-  margin-right: .25em;
+  margin-right: 0.25em;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+
+.soc {
+  cursor: pointer;
+  height: 7em;
 }
