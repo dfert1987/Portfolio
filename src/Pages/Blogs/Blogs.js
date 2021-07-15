@@ -13,7 +13,6 @@ const Blogs = () => {
             <h1 className='blogs-title'>BLOGS</h1>
           </div>
         </div>
-        <h2 className='blog-instructions'>HOVER OVER CARDS FOR FULL BLOG</h2>
         <div className='cards-container'>
           <div class='blog-card'>
             <div class='title-content'>

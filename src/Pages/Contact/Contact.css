@@ -8,12 +8,6 @@
   --Lato: 'Lato-SemiBold';
 }
 
-.main {
-  align-content: center;
-  height: 100vh;
-  width: 100vw;
-}
-
 .contact-container {
   background-color: var(--turquoise);
   border: 5px solid var(--dark);
