@@ -23,10 +23,10 @@
   color: var(--primary);
   display: flex;
   font-family: var(--League);
-  font-size: 14rem;
+  font-size: 10em;
   justify-content: center;
   line-height: 0.1em;
-  margin: 0.6em auto 20px auto;
+  margin: 1em auto 20px auto;
   text-align: center;
   text-shadow: 5px 5px 5px var(--dark);
   width: 70%;
@@ -326,6 +326,15 @@
     display: none;
   }
 
+  .about-title {
+    font-size: 7em;
+    margin-top: 0.75em;
+  }
+
+  .rectangle {
+    height: 10em;
+  }
+
   .padding-div {
     padding: 0;
   }
@@ -357,7 +366,12 @@
     margin-top: 1em;
   }
 }
-
+@media screen and (max-width: 479px) {
+  .about-title {
+    font-size: 6em;
+    margin-top: .8em;
+  }
+}
 @media screen and (max-width: 422px) {
   .bullets-section {
     display: flex;
@@ -386,18 +400,15 @@
 
   .about-title {
     font-size: 4em;
-    margin-top: .75em;
+    margin-top: 0.75em;
   }
 }
-
 
 @media screen and (max-width: 309px) {
   .mobile-image {
     height: 20em;
   }
-
 }
-
 
 /* @media screen and (max-width: 960px) {
   .graphic-container {

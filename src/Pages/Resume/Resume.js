@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
 import Res from '../../Images/resume.pdf';
+
 import './Resume.css';
 
 const Resume = () => {
@@ -13,28 +14,23 @@ const Resume = () => {
             <h1 className='resume-title'>RESUME</h1>
           </div>
         </div>
-        <div className='main-containers'>
-          <div className='download-title-container'>
-            <h2 className='download-title'>View or Download Resume Below</h2>
-          </div>
-          <div className='pdf-container'>
-            <embed
-              src={Res}
-              width='80%'
-              height='95%'
-              frameBorder='2px'
-              type='application/pdf'
-              className='pdf'
-            ></embed>
-            <embed
-              src={Res}
-              width='100%'
-              height='95%'
-              frameBorder='2px'
-              type='application/pdf'
-              className='tablet-pdf'
-            ></embed>
-          </div>
+        <div className='pdf-container'>
+          <embed
+            src={Res}
+            width='80%'
+            height='100%'
+            frameBorder='2px'
+            type='application/pdf'
+            className='pdf'
+          ></embed>
+          <embed
+            src={Res}
+            width='100%'
+            height='95%'
+            frameBorder='2px'
+            type='application/pdf'
+            className='tablet-pdf'
+          ></embed>
         </div>
       </div>
     </div>
