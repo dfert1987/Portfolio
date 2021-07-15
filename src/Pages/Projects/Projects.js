@@ -22,7 +22,7 @@ const Projects = () => {
       <div className='projects-container'>
         <div className='projects-title-container'>
           <div className='rectangle'>
-            <h1 className='resume-title'>PROJECTS</h1>
+            <h1 className='projects-title'>PROJECTS</h1>
           </div>
         </div>
         <div className='card-section'>

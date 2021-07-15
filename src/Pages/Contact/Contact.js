@@ -95,7 +95,7 @@ export default function Contact() {
                     <div className='form-button-container'>
                       <div className='btn1'>
                         <Button
-                          className=' btn send'
+                          className=' button send'
                           type='submit'
                           buttonStyle='btn--primary-send'
                         >
@@ -105,7 +105,7 @@ export default function Contact() {
                       <div>
                         <Button
                           type='button'
-                          className='btn clear'
+                          className='buttonn clear'
                           buttonStyle='btn--primary-send'
                           onClick={(e) => clearForm(e)}
                         >

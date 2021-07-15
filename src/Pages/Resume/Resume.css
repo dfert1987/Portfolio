@@ -13,9 +13,8 @@
 }
 
 .resume-container {
-  background-image: url('../../Images/shapes2.png');
+  background-image: url('../../Images/backgroundshapes.png');
   background-position: cover;
-  background-size: auto;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -37,7 +36,6 @@
   border-bottom: 5px solid var(--turquoise);
   display: flex;
   flex-direction: column;
-  z-index: 20;
 }
 
 .resume-title {
