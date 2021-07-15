@@ -16,7 +16,9 @@ const Blogs = () => {
         <div className='cards-container'>
           <div class='blog-card'>
             <div class='title-content'>
-              <h3 className='blog-name titles'>An Ultra Quick Guide to Quill.js</h3>
+              <h3 className='blog-name titles'>
+                An Ultra Quick Guide to Quill.js
+              </h3>
               <div class='tags'>
                 <p>#React, #Rails, #Quill.js</p>
               </div>
@@ -98,7 +100,9 @@ const Blogs = () => {
           </div>
           <div class='blog-card three'>
             <div class='title-content third'>
-              <h3 className='blog-name titles'>Slap a Map in that App Vol. 2</h3>
+              <h3 className='blog-name titles'>
+                Slap a Map in that App Vol. 2
+              </h3>
               <div class='tags'>
                 <p>#React, #Rails, #GoogleMaps</p>
               </div>
@@ -139,7 +143,9 @@ const Blogs = () => {
           </div>
           <div class='blog-card four'>
             <div class='title-content'>
-              <h3 className='blog-name titles'>Slap A Map in that App Vol. 1</h3>
+              <h3 className='blog-name titles'>
+                Slap A Map in that App Vol. 1
+              </h3>
               <div class='tags'>
                 <p>#React, #Rails, #GoogleMaps</p>
               </div>
@@ -310,7 +316,7 @@ const Blogs = () => {
           </div>
           <div class='blog-card eight'>
             <div class='title-content'>
-              <h3 className='blog-name stacks'>
+              <h3 className='blog-name titles'>
                 Stacks on Stacks — Stack Navigator in React Native
               </h3>
               <div class='tags'>
@@ -354,7 +360,9 @@ const Blogs = () => {
 
           <div class='blog-card nine'>
             <div class='title-content'>
-              <h3 className='blog-name titles'>SVG Files and Event Listeners</h3>
+              <h3 className='blog-name titles'>
+                SVG Files and Event Listeners
+              </h3>
               <div class='tags'>
                 <p>#SVG, #Javascript, #Events</p>
               </div>
@@ -396,7 +404,7 @@ const Blogs = () => {
           </div>
         </div>
         <h3 className='more-blogs'>
-          For More Blogs
+          <div>For More Blogs</div>
           <a className='blog-link' href='https://davidj-fertitta.medium.com/'>
             CLICK HERE
           </a>
