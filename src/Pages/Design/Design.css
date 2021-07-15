@@ -9,13 +9,11 @@
 }
 
 .design-container {
-  background-color: var(--turquoise);
-  border: 5px solid var(--dark);
-  border-radius: 3px;
+  background-image: url('../../Images/backgroundshapes.png');
+  background-position: cover;
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin: 1em;
 }
 
 .posters {
@@ -27,10 +25,10 @@
 }
 
 .design-title-container {
+  border-bottom: 5px solid var(--turquoise);
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
-  margin-top: 2em;
 }
 
 .design-title {
@@ -38,10 +36,10 @@
   color: var(--primary);
   display: flex;
   font-family: var(--League);
-  font-size: 8rem;
+  font-size: 10rem;
   justify-content: center;
   line-height: 0.1em;
-  margin: 0.6em auto 20px auto;
+  margin: .8em auto 20px auto;
   text-align: center;
   text-shadow: 3px 3px var(--dark);
   width: 70%;
@@ -60,13 +58,17 @@
 }
 
 .carousel-container {
-  height: 600px;
+  height: 800px;
   margin: 0;
   display: grid;
   grid-template-rows: 500px 100px;
   grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
   align-items: center;
   justify-items: center;
+}
+
+.full {
+  height: 100vh;
 }
 
 main#carousel {
@@ -232,12 +234,13 @@ input:nth-of-type(5):checked ~ main#carousel {
   }
 
   .carousel-container {
-    height: 400px;
-    margin-top: 3em;
+    height: 600px;
+    margin-top: 8em;
     grid-template-rows: 300px 00px;
   }
 
   main#carousel {
+    margin-bottom: 8em;
     perspective: 150px;
   }
 }
@@ -249,5 +252,23 @@ input:nth-of-type(5):checked ~ main#carousel {
   }
   main#carousel {
     perspective: 120px;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .design-title {
+    font-size: 7em;
+    margin-top: 0.75em;
+  }
+
+  .rectangle {
+    height: 10em;
+  }
+}
+
+@media screen and (max-width:329px) {
+  .design-title {
+    font-size: 3em;
+    margin-top: 1em;
   }
 }

@@ -29,7 +29,6 @@
 .triangle {
   bottom: 10em;
   position: absolute;
-
 }
 
 .resume-title-container {
@@ -43,7 +42,7 @@
   color: var(--primary);
   display: flex;
   font-family: var(--League);
-  font-size: 10rem;
+  font-size: 8rem;
   justify-content: center;
   line-height: 0.1em;
   margin: 1em auto 20px auto;

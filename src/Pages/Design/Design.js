@@ -4,7 +4,7 @@ import './Design.css';
 
 const Design = () => {
   return (
-    <>
+    <div className='full'>
       <NavBar />
       <div className='design-container'>
         <div className='design-title-container'>
@@ -12,7 +12,6 @@ const Design = () => {
             <h1 className='design-title'>DESIGN</h1>
           </div>
         </div>
-        <h2 className='posters'>Event Poster Examples</h2>
         <div className='carousel-container'>
           <input type='radio' name='position' />
           <input type='radio' name='position' />
@@ -28,7 +27,7 @@ const Design = () => {
           </main>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

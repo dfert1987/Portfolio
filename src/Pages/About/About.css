@@ -14,6 +14,7 @@
 }
 
 .about-title-container {
+  border-bottom: 5px solid var(--turquoise);
   display: flex;
   flex-direction: column;
 }
@@ -23,7 +24,7 @@
   color: var(--primary);
   display: flex;
   font-family: var(--League);
-  font-size: 10em;
+  font-size: 8em;
   justify-content: center;
   line-height: 0.1em;
   margin: 1em auto 20px auto;
@@ -172,7 +173,7 @@
   background-image: url('../../Images/AdobeStock_135100192.jpeg');
   background-size: cover;
   border-radius: 3px;
-  height: 20em;
+  height: 16em;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
