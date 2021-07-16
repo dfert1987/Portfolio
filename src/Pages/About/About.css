@@ -93,6 +93,11 @@
   width: 100%;
 }
 
+.sports {
+  display: flex;
+  flex-direction: column;
+}
+
 .graphic-cpu {
   height: 30em;
   margin-top: 8em;

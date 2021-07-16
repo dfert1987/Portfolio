@@ -102,9 +102,11 @@ const About = () => {
                         <li className='hobby-item'>Cooking</li>
                         <li className='hobby-item'>DJing</li>
                         <li className='hobby-item'>Fishing</li>
-                        <li className='hobby-item'>
-                          Cheering (and mostly being let down by) the Chicago
-                          Bears, Cubs, and Bulls
+                        <li className='hobby-item sports'>
+                          <span>
+                            Cheering for (and mostly being let down by)
+                          </span>
+                          <span>the Chicago Bears, Cubs, and Bulls</span>
                         </li>
                         <li className='hobby-item'>
                           Snuggling with my two French Bulldogs
