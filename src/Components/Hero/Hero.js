@@ -12,10 +12,10 @@ const Hero = () => {
           <div className='mobile-titles-container'>
             <p className='mobile-intro'>HI, I'M</p>
             <h1 className='mobile-name'>DAVID FERTITTA</h1>
-            <h3 className='mobile-description'>DEVELOPER AND MORE</h3>
+            <h3 className='mobile-description'>FULL STACK DEV</h3>
           </div>
           <div className='image-container'>
-            <img className='cpu' src={CPU} alt='old computer'/>
+            <img className='cpu' src={CPU} alt='old computer' />
           </div>
           <div className='mobile-image-container'>
             <div>
@@ -29,7 +29,7 @@ const Hero = () => {
         <div className='titles-container'>
           <p className='intro'>HI, I'M</p>
           <h1 className='name'>DAVID FERTITTA</h1>
-          <h3 className='description'>DEVELOPER AND MORE</h3>
+          <h3 className='description'>FULL STACK DEV</h3>
         </div>
         <div className='right-side'></div>
       </div>

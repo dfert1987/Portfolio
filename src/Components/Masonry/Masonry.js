@@ -6,7 +6,7 @@ import './Masonry.css';
 const Masonry = () => {
   return (
     <div className='masonry-background'>
-      <h2 className='masonry-text'>SOME TEXT ABOUT FRONT END DEVELOPMENT</h2>
+      <h2 className='masonry-text'>LEARN MORE ABOUT ME AND MY WORK!</h2>
       <div className='masonry-plus-images'>
         <img className='floppy1' src={Floppy} alt='floppy disk' />
         <div className='masonry-container'>
