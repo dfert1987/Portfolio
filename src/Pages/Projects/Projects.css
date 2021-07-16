@@ -9,19 +9,16 @@
 }
 
 .projects-container {
-  background-color: var(--turquoise);
-  border: 5px solid var(--dark);
-  border-radius: 3px;
+  background-image: url('../../Images/backgroundshapes.png');
+  background-position: cover;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  margin: 1em;
 }
 
 .projects-title-container {
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
+  border-bottom: 5px solid var(--turquoise);
 }
 
 .projects-title {
@@ -29,12 +26,12 @@
   color: var(--primary);
   display: flex;
   font-family: var(--League);
-  font-size: 8rem;
+  font-size: 8em;
   justify-content: center;
   line-height: 0.1em;
-  margin: 0.6em auto 20px auto;
+  margin: 1em auto 20px auto;
   text-align: center;
-  text-shadow: 3px 3px var(--dark);
+  text-shadow: 5px 5px var(--dark);
   width: 70%;
 }
 
@@ -188,6 +185,22 @@
   text-shadow: 3px 3px var(--dark);
 }
 
+@media (max-width: 906px) {
+  .center {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 16px;
+    width: 4.5em;
+  }
+}
+@media (max-width: 461px) {
+  .demo-button {
+    width: 4.5em;
+  }
+}
+
 @media (min-width: 600px) {
   .card-section {
     grid-template-columns: repeat(1, 1fr);
@@ -215,5 +228,61 @@
 @media (max-width: 1023px) {
   .image-container {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 868px) {
+  .projects-title {
+    font-size: 7em;
+    margin-top: 0.75em;
+  }
+
+  .rectangle {
+    height: 10em;
+  }
+}
+
+@media (max-width: 397px) {
+  .projects-title {
+    font-size: 3.5em;
+    margin-top: 1em;
+  }
+
+  .rectangle {
+    height: 7em;
+  }
+
+  .card-wrapper {
+    height: 450px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 357px) {
+  .card-wrapper {
+    height: 450px;
+    width: 300px;
+  }
+
+  .btn {
+    font-size: 14px;
+    width: 4em;
+  }
+}
+
+
+@media (max-width: 335px) {
+  .card-wrapper {
+    height: 450px;
+    width: 270px;
+  }
+
+  .btn {
+    font-size: 14px;
+    width: 4em;
+  }
+
+  .card-section {
+    padding: 0;
   }
 }

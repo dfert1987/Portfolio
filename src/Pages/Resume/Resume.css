@@ -8,21 +8,33 @@
   --Lato: 'Lato-SemiBold';
 }
 
+.main {
+  height: 150vh;
+}
+
 .resume-container {
-  background-color: var(--turquoise);
-  border: 5px solid var(--dark);
-  border-radius: 3px;
+  background-image: url('../../Images/backgroundshapes.png');
+  background-position: cover;
   display: flex;
   flex-direction: column;
-  height: 150vh;
-  margin: 1em;
-  text-align: center;
+  height: 100%;
+}
+
+.circle {
+  position: absolute;
+  right: 3em;
+  top: 70em;
+}
+
+.triangle {
+  bottom: 10em;
+  position: absolute;
 }
 
 .resume-title-container {
+  border-bottom: 5px solid var(--turquoise);
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
 }
 
 .resume-title {
@@ -33,7 +45,7 @@
   font-size: 8rem;
   justify-content: center;
   line-height: 0.1em;
-  margin: 0.6em auto 20px auto;
+  margin: 1em auto 20px auto;
   text-align: center;
   text-shadow: 3px 3px var(--dark);
   width: 70%;
@@ -54,30 +66,70 @@
 .pdf {
   border: 5px solid var(--dark);
   border-radius: 3px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .pdf-container {
   height: 100%;
-}
-
-.download-title-container {
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2em;
-  text-align: center;
+  width: 70%;
+  z-index: 20;
 }
 
-.download-title {
-  color: var(--primary);
-  font-family: var(--League);
-  font-size: 50px;
-  margin-bottom: 0.5em;
-  text-align: center;
-  text-shadow: 3px 3px var(--dark);
-}
-
-.main-container {
+.main-containers {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.tablet-pdf {
+  display: none;
+}
+
+@media (max-width: 1025px) {
+  .tablet-pdf {
+    display: flex;
+  }
+  .pdf {
+    display: none;
+  }
+}
+
+@media (max-width: 499px) {
+  .resume-title {
+    font-size: 7em;
+    margin-top: 0.75em;
+  }
+
+  .rectangle {
+    height: 10em;
+  }
+}
+
+@media (max-width: 321px) {
+  .resume-title {
+    font-size: 3em;
+  }
+
+  .download-title-container {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+  }
+
+  .download-title {
+    font-size: 1em;
+    margin: 0;
+  }
+
+  .main-containers {
+    margin: 0.25em;
+  }
 }

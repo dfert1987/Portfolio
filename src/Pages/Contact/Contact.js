@@ -44,81 +44,78 @@ export default function Contact() {
   };
 
   return (
-    <div className='main'>
+    <>
       <NavBar />
       <div className='contact-container'>
         <div className='contact-title-container'>
           <div className='rectangle'>
             <h1 className='contact-title'>CONTACT</h1>
           </div>
-          <div className='main-container'>
-            <div className='instructions-container'>
-              <h4 className='second-instructions'>
-                Email, Call, or Follow on Social!
-              </h4>
-            </div>
-            <div className='body-container'>
-              <div className='form-side'>
-                <div className='form-container'>
-                  <form className='contact-form' onSubmit={sendEmail}>
-                    <h4 className='message-text'>Send Me A Message!</h4>
-                    <input
-                      type='text'
-                      placeholder='Name'
-                      name='name'
-                      value={senderName}
-                      onChange={(e) => setSenderName(e.target.value)}
-                    />
-                    <input
-                      type='text'
-                      placeholder='Your Email'
-                      name='email'
-                      value={senderEmail}
-                      onChange={(e) => setSenderEmail(e.target.value)}
-                    />
-                    <input
-                      type='text'
-                      placeholder='Subject'
-                      name='subject'
-                      value={subject}
-                      onChange={(e) => setSubject(e.target.value)}
-                    />
-                    <textarea
-                      className='message'
-                      placeholder='Your message...'
-                      rows='6'
-                      cols='8'
-                      name='message'
-                      value={message}
-                      onChange={(e) => setMessage(e.target.value)}
-                    />
-                    <div className='form-button-container'>
-                      <div className='btn1'>
-                        <Button
-                          className=' btn send'
-                          type='submit'
-                          buttonStyle='btn--primary-send'
-                        >
-                          SEND
-                        </Button>
-                      </div>
-                      <div>
-                        <Button
-                          type='button'
-                          className='btn clear'
-                          buttonStyle='btn--primary-send'
-                          onClick={(e) => clearForm(e)}
-                        >
-                          CLEAR
-                        </Button>
-                      </div>
+        </div>
+        <div className='main-container'>
+          <div className='body-container'>
+            <div className='form-side'>
+              <div className='form-container'>
+                <form className='contact-form' onSubmit={sendEmail}>
+                  <h4 className='message-text'>Send Me A Message!</h4>
+                  <input
+                    type='text'
+                    placeholder='Name'
+                    name='name'
+                    value={senderName}
+                    onChange={(e) => setSenderName(e.target.value)}
+                  />
+                  <input
+                    type='text'
+                    placeholder='Your Email'
+                    name='email'
+                    value={senderEmail}
+                    onChange={(e) => setSenderEmail(e.target.value)}
+                  />
+                  <input
+                    type='text'
+                    placeholder='Subject'
+                    name='subject'
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
+                  />
+                  <textarea
+                    className='message'
+                    placeholder='Your message...'
+                    rows='6'
+                    cols='8'
+                    name='message'
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                  />
+                  <div className='form-button-container'>
+                    <div className='btn1'>
+                      <Button
+                        className=' button send'
+                        type='submit'
+                        buttonStyle='btn--primary-send'
+                      >
+                        SEND
+                      </Button>
                     </div>
-                  </form>
-                </div>
+                    <div>
+                      <Button
+                        type='button'
+                        className='buttonn clear'
+                        buttonStyle='btn--primary-send'
+                        onClick={(e) => clearForm(e)}
+                      >
+                        CLEAR
+                      </Button>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <div className='divider'></div>
-              <div className='contact-side'>
-                <div className='contact-methods-container'>
+            </div>
+            <div className='divider'></div>
+            <div className='contact-side'>
+              <div className='contact-methods-container'>
+                <div className='methods-inner-container'>
                   <div className='phone-email-section'>
                     <div className='phone-container'>
                       <h2 className='phone-email phone-title'>
@@ -182,33 +179,32 @@ export default function Contact() {
                           <img className='soc' src={GIT} alt='Github Logo' />
                         </a>
                       </div>
+                    </div>
+                    <div className='row'>
+                      <div className='soc-container'>
+                        <a href='https://twitter.com/FertittaDavid'>
+                          <img
+                            className='soc'
+                            src={Twitter}
+                            alt='Twitter Logo'
+                          />
+                        </a>
                       </div>
-                      <div className='row'>
-                        <div className='soc-container'>
-                          <a href='https://twitter.com/FertittaDavid'>
-                            <img
-                              className='soc'
-                              src={Twitter}
-                              alt='Twitter Logo'
-                            />
-                          </a>
-                        </div>
-                        <div className='soc-container'>
-                          <a href='https://www.facebook.com/david.fertitta.1232/'>
-                            <img className='soc' src={FB} alt='Facebook Logo' />
-                          </a>
-                        </div>
+                      <div className='soc-container'>
+                        <a href='https://www.facebook.com/david.fertitta.1232/'>
+                          <img className='soc' src={FB} alt='Facebook Logo' />
+                        </a>
                       </div>
-                      <div className='row'>
-                        <div className='soc-container'>
-                          <a href='https://www.instagram.com/davidj_fertitta/'>
-                            <img
-                              className='soc'
-                              src={Insta}
-                              alt='Instagram Logo'
-                            />
-                          </a>
-                        </div>
+                    </div>
+                    <div className='row'>
+                      <div className='soc-container'>
+                        <a href='https://www.instagram.com/davidj_fertitta/'>
+                          <img
+                            className='soc insta'
+                            src={Insta}
+                            alt='Instagram Logo'
+                          />
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -217,6 +213,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-    </div>
+      </div>
+    </>
   );
 }

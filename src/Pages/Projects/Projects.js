@@ -17,15 +17,14 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <>
+    <div className='main'>
       <NavBar />
       <div className='projects-container'>
         <div className='projects-title-container'>
           <div className='rectangle'>
-            <h1 className='resume-title'>PROJECTS</h1>
+            <h1 className='projects-title'>PROJECTS</h1>
           </div>
         </div>
-        <h2 className='directions'>HOVER OVER CARDS FOR MORE INFO</h2>
         <div className='card-section'>
           <div className='card-wrapper'>
             <div className='image-container'>
@@ -224,7 +223,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

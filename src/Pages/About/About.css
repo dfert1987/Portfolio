@@ -9,18 +9,14 @@
 }
 
 .about-container {
-  background-color: var(--turquoise);
-  border: 5px solid var(--dark);
-  border-radius: 3px;
   display: flex;
   flex-direction: column;
-  margin: 1em;
 }
 
 .about-title-container {
+  border-bottom: 5px solid var(--turquoise);
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
 }
 
 .about-title {
@@ -28,12 +24,12 @@
   color: var(--primary);
   display: flex;
   font-family: var(--League);
-  font-size: 8rem;
+  font-size: 8em;
   justify-content: center;
   line-height: 0.1em;
-  margin: 0.6em auto 20px auto;
+  margin: 1em auto 20px auto;
   text-align: center;
-  text-shadow: 3px 3px var(--dark);
+  text-shadow: 5px 5px 5px var(--dark);
   width: 70%;
 }
 
@@ -50,6 +46,7 @@
 }
 
 .about-subtitle {
+  color: var(--dark);
   font-family: var(--League);
   font-size: 40px;
   padding-left: 1em;
@@ -61,8 +58,6 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 3em;
 }
 
@@ -70,18 +65,58 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 1em;
+}
+
+.bullets-section {
+  background-color: var(--primary);
+  border: 5px solid var(--turquoise);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3em;
+  margin-right: 1em;
+  margin-top: 6em;
+  padding-left: 2em;
+  padding-right: 1em;
+  padding-bottom: 3em;
+}
+
+.second-body {
+  background-blend-mode: lighten;
+  background-image: url('../../Images/AdobeStock_135100192.jpeg');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.sports {
+  display: flex;
+  flex-direction: column;
+}
+
+.graphic-cpu {
+  height: 30em;
+  margin-top: 8em;
+}
+
+.first-body {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 6em;
 }
 
 .graphic {
   height: 50em;
-  margin-top: 6em;
+  margin-bottom: 2em;
   text-shadow: 3px 2px var(--dark);
 }
 
 .about-body {
+  color: var(--dark);
   font-family: var(--Lato);
   font-size: 20px;
   margin-top: 1em;
@@ -89,21 +124,41 @@
   width: 90%;
 }
 
-.hobbies {
+.about-body-hobbies {
+  font-family: var(--Lato);
+  margin-left: 1.2em;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbies-list {
+  color: var(--dark);
+  font-size: 1.5em;
   margin-bottom: 2em;
   margin-top: 0.5em;
 }
 
-.skills {
-  margin-top: 1em;
+.skills-list {
+  font-size: 1em;
+}
+
+.about-body-skills {
+  color: var(--dark);
+  font-family: var(--Lato);
+  font-size: 1.5em;
+  margin-top: 0em;
+  margin-left: 0.9em;
 }
 
 .interests {
-  margin-top: 1em;
-}
-
-.hobby-item {
-  margin-left: 1em;
+  color: var(--turquoise);
+  font-size: 5em;
+  margin-left: 0;
+  padding-left: 0;
+  text-shadow: 4px 4px var(--dark);
 }
 
 .graphic-container {
@@ -111,21 +166,22 @@
   flex-direction: column;
 }
 
-.graphic-cpu {
-  height: 23em;
-  margin-top: 10em;
+.skills-subtitle {
+  color: var(--turquoise);
+  font-family: var(--League);
+  font-size: 5em;
+  text-shadow: 4px 4px var(--dark);
 }
 
 .rectangle {
+  background-blend-mode: lighten;
   background-image: url('../../Images/AdobeStock_135100192.jpeg');
-  background-size: contain;
+  background-size: cover;
   border-radius: 3px;
-  border: 5px solid var(--primary);
-  box-shadow: 3px 2px 8px 5px var(--dark);
-  height: 10em;
+  height: 16em;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 }
 
 .small-screen-bullets {
@@ -136,56 +192,223 @@
   display: none;
 }
 
+@media screen and (min-width: 1830px) {
+  .graphic {
+    height: 40em;
+  }
+}
+
+@media screen and (max-width: 1708px) {
+  .bullets-section {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .bullets-section {
+    margin-right: 0;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1458px) {
+  .bullets-section {
+    margin-right: 0;
+    padding-bottom: 2em;
+  }
+
+  .bullets-container {
+    margin-right: 2em;
+  }
+}
+
+@media screen and (max-width: 1402px) {
+  .first-body {
+    padding-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 1227px) {
+  .graphic-container {
+    margin-top: 7em;
+  }
+
+  .graphic {
+    height: 50em;
+  }
+
+  .graphic-cpu {
+    height: 20em;
+    margin-top: 15em;
+  }
+
+  .paragraph-container {
+    width: 50%;
+  }
+
+  .first-body {
+    width: 100%;
+  }
+
+  p .about-body {
+    margin-right: 0;
+  }
+
+  .bullets-section {
+    margin-right: 0;
+    padding-right: 3em;
+  }
+}
+
+@media screen and (max-width: 1214px) {
+  .padding-div {
+    padding-right: 2em;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .padding-div {
+    padding-right: 2em;
+  }
+
+  .graphic {
+    height: 40em;
+  }
+
+  .paragraph-container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1008px) {
+  .bullets-section {
+    width: 100%;
+  }
+
+  .cpu-graphic-container {
+    width: 60%;
+  }
+
+  .skills-subtitle {
+    font-size: 3em;
+  }
+
+  .interests {
+    font-size: 3em;
+  }
+
+  .hobby-item {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .graphic-container {
     display: none;
   }
+  .paragraph-container {
+    width: 100%;
+  }
 
   .mobile-image {
     display: flex;
-    height: 30em;
+    flex-direction: column;
+    height: 40em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 3em;
   }
 
   .body-container {
-    margin-top: 0em;
+    margin-top: 0;
   }
 }
 
-@media screen and (max-width: 1115px) {
-  .graphic-cpu {
-    height: 10em;
-  }
-  .graphic {
-    height: 25em;
-  }
-  .small-screen-bullets {
-    color: var(--primary);
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1em;
-  }
-
-  .about-body {
-    margin-top: 0em;
-  }
-
-  .bullets-section {
+@media screen and (max-width: 868px) {
+  .cpu-graphic-container {
     display: none;
   }
-}
 
-@media screen and (max-width: 580px) {
-  .bullets-section {
-    display: flex;
-    flex-direction: column;
+  .about-title {
+    font-size: 7em;
+    margin-top: 0.75em;
+  }
+
+  .rectangle {
+    height: 10em;
+  }
+
+  .padding-div {
+    padding: 0;
+  }
+
+  .second-body {
+    align-content: center;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .small-screen-bullets {
-    display: none;
+  .bullets-section {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .mobile-image {
+    height: 30em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-title {
+    font-size: 8em;
+    margin-top: 1em;
+  }
+}
+@media screen and (max-width: 479px) {
+  .about-title {
+    font-size: 6em;
+    margin-top: .8em;
+  }
+}
+@media screen and (max-width: 422px) {
+  .bullets-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-list {
+    margin-bottom: 1em;
+  }
+
+  .hobbies-list {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 372px) {
+  .mobile-image {
+    height: 25em;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .mobile-image {
+    height: 25em;
+  }
+
+  .about-title {
+    font-size: 4em;
+    margin-top: 0.75em;
+  }
+}
+
+@media screen and (max-width: 309px) {
+  .mobile-image {
+    height: 20em;
   }
 }
