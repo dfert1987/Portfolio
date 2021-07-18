@@ -16,6 +16,48 @@ const Blogs = () => {
         <div className='cards-container'>
           <div class='blog-card'>
             <div class='title-content'>
+              <h3 className='blog-name titles'>Get In Touch with EmailJS</h3>
+              <div class='tags'>
+                <p>#EmailJS, #React, #Tutorial</p>
+              </div>
+              <a
+                className='mobile-read-link'
+                href='https://davidj-fertitta.medium.com/getting-in-touch-via-emailjs-177cb582832d'
+              >
+                <Button
+                  buttonStyle='primary--btn'
+                  className='mobile-read-button'
+                >
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
+            </div>
+            <div class='card-info card1'>
+              Here, I wanted to have the functionality where a user could email
+              me directly from my site, without opening up a third party email
+              app. At first I wasn’t really sure what this entailed, or if it
+              was even possible with just a frontend...
+              <a
+                className='read-link'
+                href='https://davidj-fertitta.medium.com/getting-in-touch-via-emailjs-177cb582832d'
+              >
+                <Button buttonStyle='primary--btn' className='read-button'>
+                  Read Article<span class='licon icon-arr icon-white'></span>
+                </Button>
+              </a>
+            </div>
+            <div class='utility-info'>
+              <ul class='utility-list'>
+                <li>
+                  <span class='licon icon-dat'></span>08 Jun 2021
+                </li>
+              </ul>
+            </div>
+            <div class='gradient-overlay'></div>
+            <div class='color-overlay'></div>
+          </div>
+          <div class='blog-card two'>
+            <div class='title-content'>
               <h3 className='blog-name titles'>
                 An Ultra Quick Guide to Quill.js
               </h3>
@@ -57,7 +99,7 @@ const Blogs = () => {
             <div class='gradient-overlay'></div>
             <div class='color-overlay'></div>
           </div>
-          <div class='blog-card two'>
+          <div class='blog-card three'>
             <div class='title-content second'>
               <h3 className='blog-name titles'>An Introduction to Vue.js</h3>
               <div class='tags'>
@@ -98,7 +140,7 @@ const Blogs = () => {
             <div class='gradient-overlay'></div>
             <div class='color-overlay'></div>
           </div>
-          <div class='blog-card three'>
+          <div class='blog-card four'>
             <div class='title-content third'>
               <h3 className='blog-name titles'>
                 Slap a Map in that App Vol. 2
@@ -141,7 +183,7 @@ const Blogs = () => {
             <div class='gradient-overlay'></div>
             <div class='color-overlay'></div>
           </div>
-          <div class='blog-card four'>
+          <div class='blog-card five'>
             <div class='title-content'>
               <h3 className='blog-name titles'>
                 Slap A Map in that App Vol. 1
@@ -179,49 +221,6 @@ const Blogs = () => {
               <ul class='utility-list'>
                 <li>
                   <span class='licon icon-dat'></span>24 Aug 2020
-                </li>
-              </ul>
-            </div>
-            <div class='gradient-overlay'></div>
-            <div class='color-overlay'></div>
-          </div>
-          <div class='blog-card five'>
-            <div class='title-content'>
-              <h3 className='blog-name titles'>A Model Modal in React</h3>
-              <div class='tags'>
-                <p>#React, #Modals, #UX</p>
-              </div>
-              <a
-                className='mobile-read-link'
-                href='https://davidj-fertitta.medium.com/a-model-modal-in-react-3a73b049f226'
-              >
-                <Button
-                  buttonStyle='primary--btn'
-                  className='mobile-read-button'
-                >
-                  Read Article<span class='licon icon-arr icon-white'></span>
-                </Button>
-              </a>
-            </div>
-            <div class='card-info card3'>
-              Pop up modals are great UX tools. They’re useful for when you want
-              a user to only see information when they click on certain items.
-              Plus, they allow the information to appear/disappear without the
-              user having to leave the particular route/view that they are
-              on....
-              <a
-                className='read-link'
-                href='https://davidj-fertitta.medium.com/a-model-modal-in-react-3a73b049f226'
-              >
-                <Button buttonStyle='primary--btn' className='read-button'>
-                  Read Article<span class='licon icon-arr icon-white'></span>
-                </Button>
-              </a>
-            </div>
-            <div class='utility-info'>
-              <ul class='utility-list'>
-                <li>
-                  <span class='licon icon-dat'></span>18 Aug 2020
                 </li>
               </ul>
             </div>
@@ -379,10 +378,10 @@ const Blogs = () => {
               </a>
             </div>
             <div class='card-info card3'>
-              If you’re in the business of prepping for your first developer
-              job, Big O Notation is a pretty unavoidable topic. Any literature
-              on the topic of procuring employment in the industry will note
-              that a diligent and prepared job-seeker should be able to...
+              This HTML code allowed me to apply event listeners to specific
+              countries for hover effects and let me wrap the countries I wanted
+              in links to the page that would display all of that country’s
+              artists.
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/svg-files-and-event-listeners-8f0cb43d82c0'

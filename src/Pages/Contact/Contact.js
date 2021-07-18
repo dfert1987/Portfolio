@@ -33,6 +33,7 @@ export default function Contact() {
           console.log(error.text);
         }
       );
+    clearForm(e);
   };
 
   const clearForm = (e) => {
