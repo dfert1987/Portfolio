@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import {animationTwo} from '../../Transitions';
+import {pageAnimation} from '../../Transitions';
 import NavBar from '../../Components/Nav/NavBar';
 import Comedy from '../../Images/90sshadow.png';
 import CPU from '../../Images/flippedcpu.png';
@@ -11,9 +11,9 @@ const About = () => {
     <motion.div
       className='main'
       initial='out'
-      animate='in'
+      animate='end'
       exit='out'
-      variants={animationTwo}
+      variants={pageAnimation}
     >
       <NavBar />
       <div className='about-container'>

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 import {motion} from 'framer-motion';
-import {animationThree} from '../../Transitions';
+import {pageAnimation} from '../../Transitions';
 import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
 import Twitter from '../../Images/twitterblue.png';
@@ -52,7 +52,7 @@ export default function Contact() {
       initial='out'
       animate='end'
       exit='out'
-      variants={animationThree}
+      variants={pageAnimation}
     >
       <NavBar />
       <div className='contact-container'>

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
 import {motion} from 'framer-motion';
-import {animationThree} from '../../Transitions';
+import {pageAnimation} from '../../Transitions';
 import './Design.css';
 
 const Design = () => {
@@ -11,7 +11,7 @@ const Design = () => {
       initial='out'
       animate='end'
       exit='out'
-      variants={animationThree}
+      variants={pageAnimation}
     >
       <NavBar />
       <div className='design-container'>

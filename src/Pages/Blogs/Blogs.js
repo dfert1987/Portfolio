@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion';
-import {animationTwo} from '../../Transitions';
+import {pageAnimation} from '../../Transitions';
 import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
 import './Blogs.css';
@@ -10,9 +10,9 @@ const Blogs = () => {
     <motion.div
       className='main'
       initial='out'
-      animate='in'
+      animate='end'
       exit='out'
-      variants={animationTwo}
+      variants={pageAnimation}
     >
       <NavBar />
       <div className='blogs-container'>

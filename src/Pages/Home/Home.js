@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
-import {motion} from 'framer-motion';
-import {animationOne, transition} from '../../Transitions';
 import Hero from '../../Components/Hero/Hero';
 import Masonry from '../../Components/Masonry/Masonry';
+import {motion} from 'framer-motion';
+import {pageAnimation} from '../../Transitions';
 import './Home.css';
 
 const Home = () => {
@@ -11,10 +11,9 @@ const Home = () => {
     <motion.div
       className='home'
       initial='out'
-      animate='in'
+      animate='end'
       exit='out'
-      variants={animationOne}
-      transition={transition}
+      variants={pageAnimation}
     >
       <NavBar />
       <Hero />

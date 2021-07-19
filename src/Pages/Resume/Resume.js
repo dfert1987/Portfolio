@@ -1,8 +1,8 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
-import {motion} from 'framer-motion';
-import {animationThree} from '../../Transitions';
 import Res from '../../Images/resume.pdf';
+import {motion} from 'framer-motion';
+import {pageAnimation} from '../../Transitions';
 
 import './Resume.css';
 
@@ -13,7 +13,7 @@ const Resume = () => {
       initial='out'
       animate='end'
       exit='out'
-      variants={animationThree}
+      variants={pageAnimation}
     >
       <NavBar />
       <div className='resume-container'>
