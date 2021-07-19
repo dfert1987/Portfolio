@@ -4,8 +4,8 @@
   --dark: #042443;
   --yellow: #fbdb04;
   --red: #ea5e68;
-  --League: 'LeagueGothic';
-  --Lato: 'Lato-SemiBold';
+  --League: 'League Gothic';
+  --Lato: 'Lato';
 }
 
 .hero-container {
@@ -44,7 +44,7 @@
   border-radius: 2px;
   box-shadow: 3px 2px 8px 5px black;
   color: var(--dark);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 2.5rem;
   margin-left: 0.5em;
   margin-top: 4em;
@@ -135,7 +135,6 @@
     height: 20em;
   }
 }
-
 
 @media screen and (max-height: 672px) {
   .cpu {
