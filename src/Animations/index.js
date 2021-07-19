@@ -1,11 +1,11 @@
 export const animationOne = {
-    in: {
-      opacity: 1,
-    },
-    out: {
-      opacity: 0,
-    },
-  };
+  in: {
+    opacity: 1,
+  },
+  out: {
+    opacity: 0,
+  },
+};
 
 export const animationTwo = {
   in: {
@@ -20,7 +20,7 @@ export const animationTwo = {
     x: 0,
     opacity: 1,
   },
-}
+};
 
 export const animationThree = {
   in: {
@@ -35,9 +35,26 @@ export const animationThree = {
     x: 0,
     opacity: 1,
   },
-}
+};
 
+export const animationFour = {
+  in: {
+    opacity: 1,
+    y: 100,
+    scale: 1,
+  },
+  out: {
+    opacity: 0,
+    y: 0,
+    scale: 0.3,
+  },
+  end: {
+    x: 0,
+    opacity: 1,
+    scale: 1,
+  },
+};
 
-  export const transition = {
-    duration: 1
-  };
+export const transition = {
+  duration: 1,
+};

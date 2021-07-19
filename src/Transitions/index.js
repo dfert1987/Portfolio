@@ -1,7 +1,3 @@
-export const transition = {
-  duration: 0.2,
-};
-
 export const pageAnimation = {
   in: {
     opacity: 1,

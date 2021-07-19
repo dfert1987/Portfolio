@@ -2,7 +2,12 @@ import React from 'react';
 import CPU from '../../Images/flippedcpu.png';
 import CPU2 from '../../Images/cpu.png';
 import {motion} from 'framer-motion';
-import {animationTwo, animationThree, transition} from '../../Animations';
+import {
+  animationTwo,
+  animationThree,
+  animationFour,
+  transition,
+} from '../../Animations';
 import './Hero.css';
 import '../../App.css';
 
@@ -41,14 +46,38 @@ const Hero = () => {
             </motion.h3>
           </div>
           <div className='image-container'>
-            <img className='cpu' src={CPU} alt='old computer' />
+            <motion.img
+              initial='out'
+              animate='end'
+              transition={transition}
+              variants={animationFour}
+              className='cpu'
+              src={CPU}
+              alt='old computer'
+            />
           </div>
           <div className='mobile-image-container'>
             <div>
-              <img className='mobile-cpu' src={CPU} alt='old computer' />
+              <motion.img
+                className='mobile-cpu'
+                src={CPU}
+                alt='old computer'
+                initial='out'
+                animate='end'
+                transition={transition}
+                variants={animationFour}
+              />
             </div>
             <div>
-              <img className='cpu2' src={CPU2} alt='old computer' />
+              <motion.img
+                className='cpu2'
+                src={CPU2}
+                alt='old computer'
+                initial='out'
+                animate='end'
+                transition={transition}
+                variants={animationFour}
+              />
             </div>
           </div>
         </div>
