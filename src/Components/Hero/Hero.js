@@ -1,6 +1,8 @@
 import React from 'react';
 import CPU from '../../Images/flippedcpu.png';
 import CPU2 from '../../Images/cpu.png';
+import {motion} from 'framer-motion';
+import {animationOne, transition} from '../../Animations';
 import './Hero.css';
 import '../../App.css';
 
@@ -10,7 +12,15 @@ const Hero = () => {
       <div className='two-side-container'>
         <div className='left-side'>
           <div className='mobile-titles-container'>
-            <p className='mobile-intro'>HI, I'M</p>
+            <motion.p
+              initial='out'
+              animate='in'
+              transition={transition}
+              variants={animationOne}
+              className='mobile-intro'
+            >
+              HI, I'M
+            </motion.p>
             <h1 className='mobile-name'>DAVID FERTITTA</h1>
             <h3 className='mobile-description'>FULL STACK DEV</h3>
           </div>
@@ -27,7 +37,15 @@ const Hero = () => {
           </div>
         </div>
         <div className='titles-container'>
-          <p className='intro'>HI, I'M</p>
+          <motion.p
+            initial='out'
+            animate='in'
+            transition={transition}
+            variants={animationOne}
+            className='intro'
+          >
+            HI, I'M
+          </motion.p>
           <h1 className='name'>DAVID FERTITTA</h1>
           <h3 className='description'>FULL STACK DEV</h3>
         </div>
