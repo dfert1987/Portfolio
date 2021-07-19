@@ -4,8 +4,6 @@
   --dark: #042443;
   --yellow: #fbdb04;
   --red: #ea5e68;
-  --League: 'LeagueGothic';
-  --Lato: 'Lato-SemiBold';
 }
 
 .main {
@@ -41,7 +39,7 @@
   align-items: center;
   color: var(--primary);
   display: flex;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 8rem;
   justify-content: center;
   line-height: 0.1em;

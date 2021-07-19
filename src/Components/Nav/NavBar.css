@@ -3,7 +3,6 @@
   --turquoise: #08a4b3;
   --dark: #042443;
   --yellow: #fbdb04;
-  --League: 'LeagueGothic';
 }
 
 .navbar {
@@ -34,7 +33,7 @@
   color: var(--dark);
   cursor: pointer;
   display: flex;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 4rem;
   justify-self: start;
   margin-left: 0px;
@@ -97,7 +96,7 @@
   align-items: center;
   color: var(--dark);
   display: flex;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 30px;
   height: 100%;
   padding: 0.5rem 1rem;

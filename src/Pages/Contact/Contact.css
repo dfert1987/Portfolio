@@ -4,8 +4,6 @@
   --dark: #042443;
   --yellow: #fbdb04;
   --red: #ea5e68;
-  --League: 'LeagueGothic';
-  --Lato: 'Lato-SemiBold';
 }
 
 .contact-container {
@@ -26,7 +24,7 @@
   align-items: center;
   color: var(--primary);
   display: flex;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 8rem;
   justify-content: center;
   line-height: 0.1em;
@@ -59,7 +57,7 @@
 .instructions-container {
   display: flex;
   flex-direction: column;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   margin-bottom: 1em;
   text-align: center;
   text-shadow: 3px 3px var(--dark);
@@ -108,7 +106,7 @@
 
 .message-text {
   color: var(--primary);
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 3.5em;
   text-align: center;
   text-shadow: 3px 3px var(--dark);
@@ -119,7 +117,7 @@ input {
   border: none;
   border-bottom: 5px solid var(--primary);
   color: var(--primary);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 19px;
   margin-top: 1em;
   padding-bottom: 0.25em;
@@ -143,7 +141,7 @@ input:focus {
   border: 3px solid var(--primary);
   border-radius: 5px;
   color: var(--primary);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 16px;
   margin-top: 1.5em;
   padding: 0.5em;
@@ -154,7 +152,7 @@ input:focus {
 
 textarea::placeholder {
   color: var(--primary);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 16px;
   opacity: 80%;
   text-align: left;
@@ -227,7 +225,7 @@ textarea:focus {
 }
 
 .phone-email {
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 3em;
   text-shadow: 3px 3px var(--dark);
 }
@@ -238,7 +236,7 @@ textarea:focus {
 }
 
 .method {
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 1.5em;
   margin-left: auto;
   margin-right: auto;
@@ -267,14 +265,14 @@ i {
 
 .sent-message {
   color: var(--primary);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 20px;
   margin-top: 0.5em;
 }
 
 .error-message {
   color: var(--red);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 20px;
   margin-top: 0.5em;
 }

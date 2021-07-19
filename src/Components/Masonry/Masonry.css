@@ -4,8 +4,6 @@
   --dark: #042443;
   --yellow: #fbdb04;
   --red: #ea5e68;
-  --League: 'LeagueGothic';
-  --Lato: 'Lato-SemiBold';
 }
 
 .masonry-background {
@@ -33,7 +31,7 @@
 
 .masonry-text {
   color: var(--primary);
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 50px;
   margin-bottom: 0.33em;
   margin-top: 1em;
@@ -55,7 +53,7 @@
   color: var(--primary);
   display: flex;
   flex-grow: 0;
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 1.75rem;
   font-weight: bold;
   height: 50%;
@@ -147,13 +145,13 @@
 }
 
 .bio-title {
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 45px;
   text-shadow: 3px 2px var(--dark);
 }
 
 .bio {
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 20px;
   margin-bottom: 0.5em;
 }

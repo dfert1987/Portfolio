@@ -4,8 +4,6 @@
   --dark: #042443;
   --yellow: #fbdb04;
   --red: #ea5e68;
-  --League: 'LeagueGothic';
-  --Lato: 'Lato-SemiBold';
 }
 
 .about-container {
@@ -23,7 +21,7 @@
   align-items: center;
   color: var(--primary);
   display: flex;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 8em;
   justify-content: center;
   line-height: 0.1em;
@@ -47,7 +45,7 @@
 
 .about-subtitle {
   color: var(--dark);
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 40px;
   padding-left: 1em;
   width: 90%;
@@ -117,7 +115,7 @@
 
 .about-body {
   color: var(--dark);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 20px;
   margin-top: 1em;
   padding-left: 2em;
@@ -125,7 +123,7 @@
 }
 
 .about-body-hobbies {
-  font-family: var(--Lato);
+  font-family: 'Lato';
   margin-left: 1.2em;
 }
 
@@ -147,7 +145,7 @@
 
 .about-body-skills {
   color: var(--dark);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 1.5em;
   margin-top: 0em;
   margin-left: 0.9em;
@@ -168,7 +166,7 @@
 
 .skills-subtitle {
   color: var(--turquoise);
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 5em;
   text-shadow: 4px 4px var(--dark);
 }

@@ -4,8 +4,6 @@
   --dark: #042443;
   --yellow: #fbdb04;
   --red: #ea5e68;
-  --League: 'LeagueGothic';
-  --Lato: 'Lato-SemiBold';
 }
 
 .projects-container {
@@ -25,7 +23,7 @@
   align-items: center;
   color: var(--primary);
   display: flex;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 8em;
   justify-content: center;
   line-height: 0.1em;
@@ -113,7 +111,7 @@
 
 .project-name {
   color: var(--red);
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 30px;
   line-height: 20px;
   padding: 0;
@@ -121,7 +119,7 @@
 
 .subtitle {
   color: var(--dark);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 20px;
   font-style: italic;
   margin-top: 0.33em;
@@ -129,7 +127,7 @@
 
 .project-description {
   color: var(--dark);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 15px;
   margin: 0.25em 0 0.25em 0;
   padding: 0;
@@ -170,7 +168,7 @@
 }
 
 .stack-title {
-  font-family: var(--Lato);
+  font-family: 'Lato';
   margin-right: 0.5em;
   margin-top: 0.5em;
   text-align: left;
@@ -178,7 +176,7 @@
 
 .directions {
   color: var(--red);
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 40px;
   margin-top: 1em;
   text-align: center;
@@ -269,7 +267,6 @@
     width: 4em;
   }
 }
-
 
 @media (max-width: 335px) {
   .card-wrapper {

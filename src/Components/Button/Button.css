@@ -3,15 +3,13 @@
   --turquoise: #08a4b3;
   --dark: #042443;
   --black: black;
-  --League: 'LeagueGothic';
-  --Lato: 'Lato-SemiBold';
 }
 
 .btn {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   outline: none;
   padding: 8px 30px;
 }

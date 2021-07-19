@@ -4,8 +4,6 @@
   --dark: #042443;
   --yellow: #fbdb04;
   --red: #ea5e68;
-  --League: 'LeagueGothic';
-  --Lato: 'Lato-SemiBold';
 }
 
 * {
@@ -34,7 +32,7 @@
   align-items: center;
   color: var(--primary);
   display: flex;
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 8em;
   justify-content: center;
   line-height: 0.1em;
@@ -127,7 +125,7 @@
 
 .title-content .titles {
   color: var(--primary);
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 3em;
   margin-left: 1em;
   margin-right: 1em;
@@ -136,7 +134,7 @@
 }
 
 .title-content .stacks {
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 3em;
   margin-left: 1em;
   margin-right: 1em;
@@ -146,7 +144,7 @@
 
 .second .titles {
   color: var(--primary);
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 3em;
   text-shadow: 2px 2px var(--dark);
   transition: all 0.2s;
@@ -217,7 +215,7 @@
 }
 
 .titles a {
-  font-family: var(--League);
+  font-family: 'League Gothic';
   font-size: 1.5em;
 }
 
@@ -256,7 +254,7 @@ h1 {
 
 .more-blogs {
   color: var(--turquoise);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 3em;
   margin: 1em;
   text-align: center;
@@ -284,7 +282,7 @@ h1 {
 
 .tags {
   color: var(--primary);
-  font-family: var(--Lato);
+  font-family: 'Lato';
   font-size: 1.25em;
   font-style: italic;
   line-height: 18px;
@@ -296,7 +294,7 @@ h1 {
 .card-info {
   bottom: -40px;
   box-sizing: border-box;
-  font-family: var(--Lato);
+  font-family: 'lato';
   font-size: 16px;
   left: 0;
   line-height: 24px;
