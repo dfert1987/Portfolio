@@ -261,6 +261,20 @@ i {
   display: none;
 }
 
+.sent-message {
+  color: var(--primary);
+  font-family: var(--Lato);
+  font-size: 20px;
+  margin-top: 0.5em;
+}
+
+.error-message {
+  color: var(--red);
+  font-family: var(--Lato);
+  font-size: 20px;
+  margin-top: 0.5em;
+}
+
 @media (max-width: 1314px) {
   .form-side {
     margin-left: 2em;
