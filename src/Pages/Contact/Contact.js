@@ -22,7 +22,6 @@ export default function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         'service_hgdjkzr',
@@ -68,7 +67,19 @@ export default function Contact() {
       );
     }
     if (error === true && sent === false) {
-      return <motion.h4 className='error-message'>Error, Try again.</motion.h4>;
+      return (
+        <motion.h4
+          className='error-message'
+          initial='out'
+          animate='end'
+          transition={transition}
+          variants={animationThree}
+        >
+          Error, Try again.
+        </motion.h4>
+      );
+    } else {
+      return null;
     }
   };
 
@@ -99,20 +110,24 @@ export default function Contact() {
                     name='name'
                     value={senderName}
                     onChange={(e) => setSenderName(e.target.value)}
+                    required
                   />
                   <input
-                    type='text'
+                    type='email'
                     placeholder='Your Email'
                     name='email'
                     value={senderEmail}
                     onChange={(e) => setSenderEmail(e.target.value)}
+                    required
                   />
+                  {/* {errorEmail()} */}
                   <input
                     type='text'
                     placeholder='Subject'
                     name='subject'
                     value={subject}
                     onChange={(e) => setSubject(e.target.value)}
+                    required
                   />
                   <textarea
                     className='message'
@@ -122,6 +137,7 @@ export default function Contact() {
                     name='message'
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
+                    required
                   />
                   <div className='success-message-container'>
                     {successOrFail()}
