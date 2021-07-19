@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
 import {motion} from 'framer-motion';
-import {animationOne} from '../../Transitions';
+import {animationOne, transition} from '../../Transitions';
 import Hero from '../../Components/Hero/Hero';
 import Masonry from '../../Components/Masonry/Masonry';
 import './Home.css';
@@ -14,6 +14,7 @@ const Home = () => {
       animate='in'
       exit='out'
       variants={animationOne}
+      transition={transition}
     >
       <NavBar />
       <Hero />

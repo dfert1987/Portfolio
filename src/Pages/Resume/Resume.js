@@ -1,12 +1,20 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
+import {motion} from 'framer-motion';
+import {animationThree} from '../../Transitions';
 import Res from '../../Images/resume.pdf';
 
 import './Resume.css';
 
 const Resume = () => {
   return (
-    <div className='main'>
+    <motion.div
+      className='main'
+      initial='out'
+      animate='end'
+      exit='out'
+      variants={animationThree}
+    >
       <NavBar />
       <div className='resume-container'>
         <div className='resume-title-container'>
@@ -33,7 +41,7 @@ const Resume = () => {
           ></embed>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
