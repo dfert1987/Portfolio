@@ -242,8 +242,8 @@
 
 @media (max-width: 397px) {
   .projects-title {
-    font-size: 3.5em;
-    margin-top: 1em;
+    font-size: 6em;
+    margin-top: .8em;
   }
 
   .rectangle {
@@ -277,6 +277,11 @@
   .btn {
     font-size: 14px;
     width: 4em;
+  }
+
+  .projects-title {
+    font-size: 4.6em;
+    margin-top: .6em;
   }
 
   .card-section {
