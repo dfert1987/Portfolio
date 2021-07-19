@@ -1,18 +1,27 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
+import {motion} from 'framer-motion';
+import {animationOne, transition} from '../../Transitions';
 import Hero from '../../Components/Hero/Hero';
 import Masonry from '../../Components/Masonry/Masonry';
 import './Home.css';
 
 const Home = () => {
   return (
-    <div className='home'>
+    <motion.div
+      className='home'
+      initial='out'
+      animate='in'
+      exit='out'
+      variants={animationOne}
+      transition={transition}
+    >
       <NavBar />
       <Hero />
       <div className='masonry-section'>
-        <Masonry  />
+        <Masonry />
       </div>
-    </div>
+    </motion.div>
   );
 };
 

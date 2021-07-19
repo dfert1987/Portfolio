@@ -1,4 +1,6 @@
 import React from 'react';
+import {motion} from 'framer-motion';
+import {animationTwo} from '../../Transitions';
 import NavBar from '../../Components/Nav/NavBar';
 import Comedy from '../../Images/90sshadow.png';
 import CPU from '../../Images/flippedcpu.png';
@@ -6,7 +8,13 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className='main'>
+    <motion.div
+      className='main'
+      initial='out'
+      animate='in'
+      exit='out'
+      variants={animationTwo}
+    >
       <NavBar />
       <div className='about-container'>
         <div className='about-title-container'>
@@ -158,7 +166,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

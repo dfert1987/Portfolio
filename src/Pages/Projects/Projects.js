@@ -2,6 +2,8 @@ import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
 import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
+import {animationTwo} from '../../Transitions';
 import reactLogo from '../../Images/react.png';
 import railsLogo from '../../Images/rails.png';
 import typescriptLogo from '../../Images/typescript.png';
@@ -17,7 +19,13 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <div className='main'>
+    <motion.div
+      className='main'
+      initial='out'
+      animate='in'
+      exit='out'
+      variants={animationTwo}
+    >
       <NavBar />
       <div className='projects-container'>
         <div className='projects-title-container'>
@@ -223,7 +231,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

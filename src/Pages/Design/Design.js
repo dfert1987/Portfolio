@@ -1,10 +1,18 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
+import {motion} from 'framer-motion';
+import {animationThree} from '../../Transitions';
 import './Design.css';
 
 const Design = () => {
   return (
-    <div className='full'>
+    <motion.div
+      className='main'
+      initial='out'
+      animate='end'
+      exit='out'
+      variants={animationThree}
+    >
       <NavBar />
       <div className='design-container'>
         <div className='design-title-container'>
@@ -27,7 +35,7 @@ const Design = () => {
           </main>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
