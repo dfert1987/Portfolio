@@ -90,6 +90,11 @@
   width: 80%;
 }
 
+.name-error {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .form-container {
   background-image: url('../../Images/AdobeStock_135100192.jpeg');
   background-size: contain;
@@ -105,7 +110,6 @@
   color: var(--primary);
   font-family: var(--League);
   font-size: 3.5em;
-  margin-bottom: 0.5em;
   text-align: center;
   text-shadow: 3px 3px var(--dark);
 }
@@ -117,10 +121,10 @@ input {
   color: var(--primary);
   font-family: var(--Lato);
   font-size: 19px;
-  margin-bottom: 1em;
+  margin-top: 1em;
   padding-bottom: 0.25em;
-  padding-left: 0.5em;
-  padding-top: 0.25em;
+  padding-left: 0.25em;
+  padding-top: 0.5em;
   width: 90%;
 }
 
@@ -141,7 +145,7 @@ input:focus {
   color: var(--primary);
   font-family: var(--Lato);
   font-size: 16px;
-  margin-top: 0.5em;
+  margin-top: 1.5em;
   padding: 0.5em;
   text-align: left;
   text-shadow: none;
@@ -259,6 +263,20 @@ i {
 
 .mobile-social-container {
   display: none;
+}
+
+.sent-message {
+  color: var(--primary);
+  font-family: var(--Lato);
+  font-size: 20px;
+  margin-top: 0.5em;
+}
+
+.error-message {
+  color: var(--red);
+  font-family: var(--Lato);
+  font-size: 20px;
+  margin-top: 0.5em;
 }
 
 @media (max-width: 1314px) {

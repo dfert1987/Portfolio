@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import emailjs from 'emailjs-com';
 import {motion} from 'framer-motion';
 import {pageAnimation} from '../../Transitions';
+import {animationThree, transition} from '../../Animations';
 import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
 import Twitter from '../../Images/twitterblue.png';
@@ -16,10 +17,11 @@ export default function Contact() {
   const [senderName, setSenderName] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
+  const [sent, setSent] = useState(false);
+  const [error, setError] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         'service_hgdjkzr',
@@ -30,9 +32,13 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          setSent(true);
+          setError(false);
         },
         (error) => {
           console.log(error.text);
+          setError(true);
+          setSent(false);
         }
       );
     clearForm(e);
@@ -44,6 +50,37 @@ export default function Contact() {
     setSenderEmail('');
     setSubject('');
     setMessage('');
+  };
+
+  const successOrFail = () => {
+    if (sent === true && error === false) {
+      return (
+        <motion.h4
+          className='sent-message'
+          initial='out'
+          animate='end'
+          transition={transition}
+          variants={animationThree}
+        >
+          Message Sent!
+        </motion.h4>
+      );
+    }
+    if (error === true && sent === false) {
+      return (
+        <motion.h4
+          className='error-message'
+          initial='out'
+          animate='end'
+          transition={transition}
+          variants={animationThree}
+        >
+          Error, Try again.
+        </motion.h4>
+      );
+    } else {
+      return null;
+    }
   };
 
   return (
@@ -73,20 +110,24 @@ export default function Contact() {
                     name='name'
                     value={senderName}
                     onChange={(e) => setSenderName(e.target.value)}
+                    required
                   />
                   <input
-                    type='text'
+                    type='email'
                     placeholder='Your Email'
                     name='email'
                     value={senderEmail}
                     onChange={(e) => setSenderEmail(e.target.value)}
+                    required
                   />
+                  {/* {errorEmail()} */}
                   <input
                     type='text'
                     placeholder='Subject'
                     name='subject'
                     value={subject}
                     onChange={(e) => setSubject(e.target.value)}
+                    required
                   />
                   <textarea
                     className='message'
@@ -96,7 +137,11 @@ export default function Contact() {
                     name='message'
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
+                    required
                   />
+                  <div className='success-message-container'>
+                    {successOrFail()}
+                  </div>
                   <div className='form-button-container'>
                     <div className='btn1'>
                       <Button
