@@ -83,7 +83,7 @@
 
 .second-body {
   background-blend-mode: lighten;
-  background-image: url('../../Images/AdobeStock_135100192.jpeg');
+  background-image: url('../../Images/AdobeStock_135100192-min.png');
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -173,7 +173,7 @@
 
 .rectangle {
   background-blend-mode: lighten;
-  background-image: url('../../Images/AdobeStock_135100192.jpeg');
+  background-image: url('../../Images/AdobeStock_135100192-min.png');
   background-size: cover;
   border-radius: 3px;
   height: 16em;

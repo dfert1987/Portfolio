@@ -1,6 +1,6 @@
 import React from 'react';
-import CPU from '../../Images/flippedcpu.png';
-import CPU2 from '../../Images/cpu.png';
+import CPU from '../../Images/flippedcpu-min.png';
+import CPU2 from '../../Images/cpu-min.png';
 import {motion} from 'framer-motion';
 import {
   animationTwo,

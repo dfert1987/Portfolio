@@ -2,8 +2,8 @@ import React from 'react';
 import {motion} from 'framer-motion';
 import {pageAnimation} from '../../Transitions';
 import NavBar from '../../Components/Nav/NavBar';
-import Comedy from '../../Images/90sshadow.png';
-import CPU from '../../Images/flippedcpu.png';
+import Comedy from '../../Images/90sshadow-min.png';
+import CPU from '../../Images/flippedcpu-min.png';
 import './About.css';
 
 const About = () => {

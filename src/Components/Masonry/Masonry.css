@@ -98,7 +98,7 @@
 }
 
 .about {
-  background-image: url('../../Images/bluestandup.png');
+  background-image: url('../../Images/bluestandup-min.png');
   background-position: top -15px center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,31 +107,31 @@
 }
 
 .resume {
-  background-image: url('../../Images/resumeyellow.png');
+  background-image: url('../../Images/resumeyellow-min.png');
   cursor: pointer;
   height: 75%;
 }
 
 .projects {
-  background-image: url('../../Images/projectsspink.png');
+  background-image: url('../../Images/projectsspink-min.png');
   cursor: pointer;
   height: 50%;
 }
 
 .blogs {
-  background-image: url('../../Images/blogsdark.png');
+  background-image: url('../../Images/blogsdark-min.png');
   cursor: pointer;
   height: 50%;
 }
 
 .design {
-  background-image: url('../../Images/designyellow.png');
+  background-image: url('../../Images/designyellow-min.png');
   cursor: pointer;
   height: 66.666%;
 }
 
 .contact {
-  background-image: url('../../Images/contact.png');
+  background-image: url('../../Images/contact-min.png');
   cursor: pointer;
   height: 33.333%;
 }
