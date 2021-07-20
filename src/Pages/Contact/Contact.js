@@ -85,7 +85,7 @@ export default function Contact() {
 
   return (
     <motion.div
-      className='main'
+      className='main-contact'
       initial='out'
       animate='end'
       exit='out'
