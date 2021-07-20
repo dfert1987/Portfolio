@@ -45,8 +45,7 @@ const Blogs = () => {
             <div class='card-info card1'>
               Here, I wanted to have the functionality where a user could email
               me directly from my site, without opening up a third party email
-              app. At first I wasn’t really sure what this entailed, or if it
-              was even possible with just a frontend...
+              app...
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/getting-in-touch-via-emailjs-177cb582832d'
