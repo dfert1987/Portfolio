@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../../Components/Nav/NavBar';
-import Res from '../../Images/resume.pdf';
+import Res from '../../Images/updatedResume.pdf';
 import {motion} from 'framer-motion';
 import {pageAnimation} from '../../Transitions';
 
