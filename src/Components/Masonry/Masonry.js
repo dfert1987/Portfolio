@@ -1,5 +1,5 @@
 import React from 'react';
-import Floppy from '../../Images/floppy.png';
+import Floppy from '../../Images/floppy-min.png';
 import {Link} from 'react-router-dom';
 import './Masonry.css';
 

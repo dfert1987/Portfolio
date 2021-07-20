@@ -7,7 +7,7 @@
 }
 
 .contact-container {
-  background-image: url('../../Images/backgroundshapes.png');
+  background-image: url('../../Images/backgroundshapes-min.png');
   background-position: cover;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@
 }
 
 .form-container {
-  background-image: url('../../Images/AdobeStock_135100192.jpeg');
+  background-image: url('../../Images/AdobeStock_135100192-min.png');
   background-size: contain;
   border: 5px var(--primary) solid;
   border-radius: 5px;
@@ -143,7 +143,6 @@ input:focus {
   color: var(--primary);
   font-family: 'Lato';
   font-size: 16px;
-  margin-top: 1.5em;
   padding: 0.5em;
   text-align: left;
   text-shadow: none;
@@ -199,7 +198,7 @@ textarea:focus {
 }
 
 .contact-methods-container {
-  background-image: url('../../Images/AdobeStock_135100192.jpeg');
+  background-image: url('../../Images/AdobeStock_135100192-min.png');
   background-size: contain;
   border: 5px solid var(--primary);
   border-radius: 5px;
@@ -451,7 +450,7 @@ i {
   .contact-title {
     font-size: 7em;
     position: relative;
-    top: .1em;
+    top: 0.1em;
   }
 }
 
@@ -459,7 +458,7 @@ i {
   .contact-title {
     font-size: 5em;
     position: relative;
-    top: .3em;
+    top: 0.3em;
   }
 }
 
@@ -661,6 +660,12 @@ i {
   }
   .contact-methods-container {
     padding: 1.5em;
+  }
+}
+
+@media (width: 1024px) and (height: 1366px) {
+  .contact-container {
+    height: 100vh;
   }
 }
 

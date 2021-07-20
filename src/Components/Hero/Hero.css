@@ -24,7 +24,7 @@
 }
 
 .left-side {
-  background-image: url('../../Images/AdobeStock_135100192.jpeg');
+  background-image: url('../../Images/AdobeStock_135100192-min.png');
   background-size: contain;
   border-right-color: var(--primary);
   border-right-width: 5px;
@@ -85,7 +85,7 @@
 }
 
 .right-side {
-  background-image: url('../../Images/meyurt2.png');
+  background-image: url('../../Images/meyurt2-min.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -11,7 +11,7 @@
 }
 
 .resume-container {
-  background-image: url('../../Images/backgroundshapes.png');
+  background-image: url('../../Images/backgroundshapes-min.png');
   background-position: cover;
   display: flex;
   flex-direction: column;
