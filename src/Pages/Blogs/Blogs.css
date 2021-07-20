@@ -65,7 +65,7 @@
 
 .blog-card {
   background: url('../../Images/emailjs.png') no-repeat center;
-  background-size: 160%;
+  background-size: 230%;
   border: 4px solid var(--turquoise);
   border-radius: 4px;
   box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
@@ -85,12 +85,12 @@
 
 .two {
   background: url('../../Images/quillthumb.png') no-repeat center;
-  background-size: 300%;
+  background-size: 160%;
 }
 
 .three {
   background: url('../../Images/vue.jpeg') no-repeat center;
-  background-size: 200%;
+  background-size: 250%;
 }
 
 .four {
@@ -541,8 +541,8 @@ h1 {
 
 @media screen and (max-width: 397px) {
   .blogs-title {
-    font-size: 3.5em;
-    margin-top: 1em;
+    font-size: 6em;
+    margin-top: 0.8em;
   }
 
   .rectangle {
@@ -569,6 +569,11 @@ h1 {
 
   .title-content .titles {
     font-size: 2em;
+  }
+
+  .blogs-title {
+    font-size: 4.6em;
+    margin-top: .6em;
   }
 
   .blog-card .btn {
