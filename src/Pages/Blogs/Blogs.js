@@ -31,6 +31,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/getting-in-touch-via-emailjs-177cb582832d'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -48,6 +50,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/getting-in-touch-via-emailjs-177cb582832d'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -75,6 +79,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/an-ultra-quick-guide-to-quill-js-1aae1ac59d56'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -91,6 +97,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/an-ultra-quick-guide-to-quill-js-1aae1ac59d56'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -116,6 +124,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/an-introduction-to-vue-js-54f271e5f4e1'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -132,6 +142,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/an-introduction-to-vue-js-54f271e5f4e1'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -159,6 +171,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/slap-a-map-in-that-app-vol-2-a109e9bf007e'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -175,6 +189,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/slap-a-map-in-that-app-vol-2-a109e9bf007e'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -202,6 +218,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/slap-a-map-in-that-app-3e0345a5f847'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -219,6 +237,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/slap-a-map-in-that-app-3e0345a5f847'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -244,6 +264,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/getting-to-know-the-big-o-78568316c475'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -261,6 +283,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/getting-to-know-the-big-o-78568316c475'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -288,6 +312,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/optimistic-rendering-from-a-form-in-react-fbf442ed1ec'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -305,6 +331,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/optimistic-rendering-from-a-form-in-react-fbf442ed1ec'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -332,6 +360,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/stacks-on-stacks-stack-navigator-react-native-cdb0283f17ac'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -348,6 +378,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/stacks-on-stacks-stack-navigator-react-native-cdb0283f17ac'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -376,6 +408,8 @@ const Blogs = () => {
               <a
                 className='mobile-read-link'
                 href='https://davidj-fertitta.medium.com/svg-files-and-event-listeners-8f0cb43d82c0'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button
                   buttonStyle='primary--btn'
@@ -393,6 +427,8 @@ const Blogs = () => {
               <a
                 className='read-link'
                 href='https://davidj-fertitta.medium.com/svg-files-and-event-listeners-8f0cb43d82c0'
+                target='_blank'
+                rel='noopener noreferrer'
               >
                 <Button buttonStyle='primary--btn' className='read-button'>
                   Read Article<span class='licon icon-arr icon-white'></span>
@@ -412,7 +448,12 @@ const Blogs = () => {
         </div>
         <h3 className='more-blogs'>
           <div>For More Blogs</div>
-          <a className='blog-link' href='https://davidj-fertitta.medium.com/'>
+          <a
+            className='blog-link'
+            href='https://davidj-fertitta.medium.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             CLICK HERE
           </a>
         </h3>

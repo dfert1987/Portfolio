@@ -99,6 +99,13 @@
   }
 }
 
+@media (max-width: 869px) {
+  .resume-title {
+    font-size: 7em;
+    margin-top: 0.75em;
+  }
+}
+
 @media (max-width: 499px) {
   .resume-title {
     font-size: 7em;

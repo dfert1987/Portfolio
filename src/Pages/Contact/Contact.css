@@ -422,7 +422,7 @@ i {
   }
 
   .contact-title {
-    font-size: 8em;
+    font-size: 7em;
     margin-bottom: 1em;
   }
 }
@@ -459,7 +459,7 @@ i {
   .contact-title {
     font-size: 5em;
     position: relative;
-    top: .4em;
+    top: .3em;
   }
 }
 
@@ -561,7 +561,7 @@ i {
 }
 
 @media (max-width: 1067px) {
-  .email-containaer .method {
+  .email-container .method {
     font-size: 0.5em;
   }
 }

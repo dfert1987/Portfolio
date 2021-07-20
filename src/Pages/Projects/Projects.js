@@ -3,14 +3,15 @@ import NavBar from '../../Components/Nav/NavBar';
 import {Button} from '../../Components/Button/Button';
 import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
-import {pageAnimation} from '../../Transitions';import reactLogo from '../../Images/react.png';
+import {pageAnimation} from '../../Transitions';
+import reactLogo from '../../Images/react.png';
 import railsLogo from '../../Images/rails.png';
 import typescriptLogo from '../../Images/typescript.png';
 import nodeLogo from '../../Images/node.png';
 import jsLogo from '../../Images/js.png';
 import nativeLogo from '../../Images/reactnative.png';
-import homerCard from '../../Images/homercard.png';
-import anglerCard from '../../Images/anglercard.png';
+import homerCard from '../../Images/homer2.png';
+import anglerCard from '../../Images/angler2.png';
 import ncCard from '../../Images/nccard.png';
 import crateCard from '../../Images/cratecard.png';
 import bleCard from '../../Images/BLE.png';
@@ -34,7 +35,7 @@ const Projects = () => {
         </div>
         <div className='card-section'>
           <div className='card-wrapper'>
-            <div className='image-container'>
+            <div className='image-containers'>
               <img className='image' src={homerCard} alt='Homer Blog' />
             </div>
             <div className='details'>
@@ -56,12 +57,16 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link to='/'>
+                  <Link to='/' target='_blank' rel='noopener noreferrer'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
                   </Link>
-                  <a href='https://github.com/dfert1987/Homer_Blog'>
+                  <a
+                    href='https://github.com/dfert1987/Homer_Blog'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button buttonStyle='btn--outline' className='demo-button'>
                       VISIT REPO
                     </Button>
@@ -71,7 +76,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='card-wrapper'>
-            <div className='image-container'>
+            <div className='image-containers'>
               <img className='image' src={ncCard} alt='NeuroCann' />
             </div>
             <div className='details'>
@@ -97,12 +102,16 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link to='/'>
+                  <Link to='/' target='_blank' rel='noopener noreferrer'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
                   </Link>
-                  <a href='https://www.neurocann.com/'>
+                  <a
+                    href='https://www.neurocann.com/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button buttonStyle='btn--outline' className='demo-button'>
                       VISIT SITE
                     </Button>
@@ -112,7 +121,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='card-wrapper'>
-            <div className='image-container'>
+            <div className='image-containers'>
               <img className='image' src={anglerCard} alt='Angler App' />
             </div>
             <div className='details'>
@@ -134,12 +143,20 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <a href='https://www.youtube.com/watch?v=-zv0Unm8neM'>
+                  <a
+                    href='https://www.youtube.com/watch?v=-zv0Unm8neM'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
                   </a>
-                  <a href='https://github.com/dfert1987/AnglerApp'>
+                  <a
+                    href='https://github.com/dfert1987/AnglerApp'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button buttonStyle='btn--outline' className='demo-button'>
                       VISIT REPO
                     </Button>
@@ -149,7 +166,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='card-wrapper'>
-            <div className='image-container'>
+            <div className='image-containers'>
               <img
                 className='image'
                 src={crateCard}
@@ -173,12 +190,16 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link to='/'>
+                  <Link to='/' target='_blank' rel='noopener noreferrer'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
                   </Link>
-                  <a href='https://github.com/dfert1987/cratediggerproject'>
+                  <a
+                    href='https://github.com/dfert1987/cratediggerproject'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button buttonStyle='btn--outline' className='demo-button'>
                       VISIT REPO
                     </Button>
@@ -188,7 +209,7 @@ const Projects = () => {
             </div>
           </div>
           <div className='card-wrapper'>
-            <div className='image-container'>
+            <div className='image-containers'>
               <img className='image' src={bleCard} alt='Big League Eats' />
             </div>
             <div className='details'>
@@ -214,12 +235,16 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link to='/'>
+                  <Link to='/' target='_blank' rel="noopener noreferrer">
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
                   </Link>
-                  <a href='https://github.com/dfert1987/capstone-frontend'>
+                  <a
+                    href='https://github.com/dfert1987/capstone-frontend'
+                    target='_blank'
+                    rel="noopener noreferrer"
+                  >
                     <Button buttonStyle='btn--outline' className='demo-button'>
                       VISIT REPO
                     </Button>
