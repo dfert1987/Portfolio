@@ -256,9 +256,13 @@ h1 {
   color: var(--turquoise);
   font-family: 'Lato';
   font-size: 3em;
-  margin: 1em;
+  justify-content: center;
   text-align: center;
   text-shadow: 3px 3px 5px var(--dark);
+  background-color: var(--primary);
+  padding: 0.5em;
+  border-top: 5px solid var(--dark);
+  width: 100%;
 }
 
 .blog-link {
@@ -500,6 +504,7 @@ h1 {
 
   .more-blogs {
     font-size: 1.5em;
+    background-color: var(--primary);
   }
 
   .tags {
@@ -573,7 +578,7 @@ h1 {
 
   .blogs-title {
     font-size: 4.6em;
-    margin-top: .6em;
+    margin-top: 0.6em;
   }
 
   .blog-card .btn {

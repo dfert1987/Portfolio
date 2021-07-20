@@ -120,7 +120,6 @@ export default function Contact() {
                     onChange={(e) => setSenderEmail(e.target.value)}
                     required
                   />
-                  {/* {errorEmail()} */}
                   <input
                     type='text'
                     placeholder='Subject'
@@ -188,7 +187,11 @@ export default function Contact() {
                   </div>
                   <div className='social-container'>
                     <div className='soc-container'>
-                      <a href='https://www.linkedin.com/in/david-fertitta-99298715b/'>
+                      <a
+                        href='https://www.linkedin.com/in/david-fertitta-99298715b/'
+                        target='_blank'
+                        rel="noopener noreferrer"
+                      >
                         <img
                           className='soc'
                           src={LinkedIn}
@@ -197,22 +200,38 @@ export default function Contact() {
                       </a>
                     </div>
                     <div className='soc-container'>
-                      <a href='https://github.com/dfert1987'>
+                      <a
+                        href='https://github.com/dfert1987'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <img className='soc' src={GIT} alt='Github Logo' />
                       </a>
                     </div>
                     <div className='soc-container'>
-                      <a href='https://twitter.com/FertittaDavid'>
+                      <a
+                        href='https://twitter.com/FertittaDavid'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <img className='soc' src={Twitter} alt='Twitter Logo' />
                       </a>
                     </div>
                     <div className='soc-container'>
-                      <a href='https://www.facebook.com/david.fertitta.1232/'>
+                      <a
+                        href='https://www.facebook.com/david.fertitta.1232/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <img className='soc' src={FB} alt='Facebook Logo' />
                       </a>
                     </div>
                     <div className='soc-container'>
-                      <a href='https://www.instagram.com/davidj_fertitta/'>
+                      <a
+                        href='https://www.instagram.com/davidj_fertitta/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
                         <img className='soc' src={Insta} alt='Instagram Logo' />
                       </a>
                     </div>
@@ -220,7 +239,11 @@ export default function Contact() {
                   <div className='mobile-social-container'>
                     <div className='row'>
                       <div className='soc-container'>
-                        <a href='https://www.linkedin.com/in/david-fertitta-99298715b/'>
+                        <a
+                          href='https://www.linkedin.com/in/david-fertitta-99298715b/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
                           <img
                             className='soc'
                             src={LinkedIn}
@@ -229,14 +252,22 @@ export default function Contact() {
                         </a>
                       </div>
                       <div className='soc-container'>
-                        <a href='https://github.com/dfert1987'>
+                        <a
+                          href='https://github.com/dfert1987'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
                           <img className='soc' src={GIT} alt='Github Logo' />
                         </a>
                       </div>
                     </div>
                     <div className='row'>
                       <div className='soc-container'>
-                        <a href='https://twitter.com/FertittaDavid'>
+                        <a
+                          href='https://twitter.com/FertittaDavid'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
                           <img
                             className='soc'
                             src={Twitter}
@@ -245,14 +276,22 @@ export default function Contact() {
                         </a>
                       </div>
                       <div className='soc-container'>
-                        <a href='https://www.facebook.com/david.fertitta.1232/'>
+                        <a
+                          href='https://www.facebook.com/david.fertitta.1232/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
                           <img className='soc' src={FB} alt='Facebook Logo' />
                         </a>
                       </div>
                     </div>
                     <div className='row'>
                       <div className='soc-container'>
-                        <a href='https://www.instagram.com/davidj_fertitta/'>
+                        <a
+                          href='https://www.instagram.com/davidj_fertitta/'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                        >
                           <img
                             className='soc insta'
                             src={Insta}
