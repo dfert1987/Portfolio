@@ -39,7 +39,7 @@
   margin-left: 0px;
   position: relative;
   text-decoration: none;
-  top: .1em;
+  top: 0.1em;
 }
 
 .fa-typo3 {
@@ -59,7 +59,7 @@
 }
 
 .nav-item {
-  height: 60px;
+  height: 80px;
 }
 
 .nav-item-home {
@@ -290,6 +290,10 @@
     padding-right: 0em;
     transition: all 0.5s ease;
     z-index: 1;
+  }
+
+  .nav-menu.active li {
+    height: 60px;
   }
 
   .nav-links {
