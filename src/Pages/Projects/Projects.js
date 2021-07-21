@@ -57,7 +57,11 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link to='/' target='_blank' rel='noopener noreferrer'>
+                  <Link
+                    to='https://youtu.be/Fiu_T_yHdH0'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
@@ -235,7 +239,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link to='/' target='_blank' rel="noopener noreferrer">
+                  <Link to='/' target='_blank' rel='noopener noreferrer'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
@@ -243,7 +247,7 @@ const Projects = () => {
                   <a
                     href='https://github.com/dfert1987/capstone-frontend'
                     target='_blank'
-                    rel="noopener noreferrer"
+                    rel='noopener noreferrer'
                   >
                     <Button buttonStyle='btn--outline' className='demo-button'>
                       VISIT REPO
