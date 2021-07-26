@@ -108,7 +108,7 @@ const Projects = () => {
                 <div className='button-container'>
                   <Link to='/' target='_blank' rel='noopener noreferrer'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
-                      VIEW DEMO
+                      DEMO COMING SOON
                     </Button>
                   </Link>
                   <a
@@ -194,7 +194,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link to='/' target='_blank' rel='noopener noreferrer'>
+                  <Link to='https://youtu.be/Dj5sMHArRGo' target='_blank' rel='noopener noreferrer'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
@@ -241,7 +241,7 @@ const Projects = () => {
                 <div className='button-container'>
                   <Link to='/' target='_blank' rel='noopener noreferrer'>
                     <Button buttonStyle='btn--primary' className='demo-button'>
-                      VIEW DEMO
+                      DEMO COMING SOON
                     </Button>
                   </Link>
                   <a
