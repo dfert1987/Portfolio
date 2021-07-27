@@ -52,25 +52,25 @@ const About = () => {
                 <p className='about-body'>
                   Upon returning to the US, I quickly realized that being
                   well-traveled wasn't quite as much of a hireable skill as I
-                  had previously hoped. I knew I needed to revamp and refocus my
-                  career path, so I thought about the dev team I worked with in
-                  Beijing and thought about how awesome it was that they could
-                  turn our ideas for our app into a reality. It was this ability
-                  to create something out of nothing that really excited me, and
-                  eventually propelled me into signing up for Flatiron's
-                  immersive Software Engineering bootcamp.
+                  had previously hoped, so I decided to revamp and refocus my
+                  career path. While contemplating my future, I thought about
+                  the dev team I worked with in Beijing and thought about how
+                  awesome it was that they could turn the ideas we had for our
+                  app into a reality. It was this ability to create something
+                  out of nothing that really excited me, and eventually
+                  propelled me into signing up for Flatiron's immersive Software
+                  Engineering bootcamp.
                 </p>
                 <p className='about-body'>
                   Although the bootcamp was nervewracking at first, I quickly
-                  developed a realized that I had made a great decision, and
-                  learned that I had a real knack for stylish frontend
-                  develpment. Since graduating, I've been able to apply what
-                  I've learned while developing countless new skills while
-                  working as part of agile dev teams for fast paced start-ups
-                  (NeuroCann / TransferThought) building out interactive
+                  started to find joy in coding (especially frontend
+                  development), and realized that I had made a great decision.
+                  Since graduating, I've been able to apply what I've learned
+                  while developing countless new skills building out interactive
                   frontend features, making calls to RESTful APIs, and working
                   closely with design teams to produce sleek fully responsive
-                  apps.
+                  apps as part of agile dev teams at NeuroCann and
+                  TransferThought.
                 </p>
               </div>
               <div className='graphic-container'>
