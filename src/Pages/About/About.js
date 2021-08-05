@@ -32,11 +32,10 @@ const About = () => {
                 <h4 className='about-subtitle'>MY STORY:</h4>
                 <p className='about-body'>
                   Hi, my name is David Fertitta. I'm a software developer /
-                  frontend engineer who strives to combine my diverse skillset,
-                  which includes experience in content creation, graphic design
-                  and marketing, with my new found love of coding to creeate
-                  apps and websites that are as engaging as they are intuitive,
-                  and functional.
+                  frontend engineer who strives to combine my background,
+                  in content creation, graphic design and marketing, with 
+                  my new found love of coding to create apps and websites 
+                  that are as engaging as they are intuitive, and functional.
                 </p>
                 <p className='about-body'>
                   My path to becoming a developer has been pretty unorthodox
