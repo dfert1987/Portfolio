@@ -34,14 +34,11 @@ const Masonry = () => {
       <div className='bio-container'>
         <h2 className='bio-title'>BIO:</h2>
         <p className='bio'>
-          Versatile full stack web developer, with experience as a writer,
-          graphic designer and marketer. After spending time working for
-          fast-paced international start-ups and running Beijing's first English
-          language stand-up comedy club, I've now returned to the US as a highly
-          adaptable, self starter, adept at solving problems creatively, and
-          merging my newly found passion for software engineering with my past
-          work experience to make apps that are as engaging and eye-catching as
-          they are functional.
+          Versatile full stack web developer with a passion for developing
+          applications that are as engaging and eye-catching as they are
+          functional. I have ~1 year professional experience working as a
+          frontend developer in an agile development team, building out a
+          minimum viable product for an ERP software startup. 
         </p>
       </div>
     </div>
