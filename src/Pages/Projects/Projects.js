@@ -58,7 +58,7 @@ const Projects = () => {
                 </div>
                 <div className='button-container'>
                   <Link
-                    to='https://youtu.be/Fiu_T_yHdH0'
+                    to='https://www.youtube.com/watch?v=Fiu_T_yHdH0'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -194,7 +194,11 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link to='https://youtu.be/Dj5sMHArRGo' target='_blank' rel='noopener noreferrer'>
+                  <Link
+                    to='https://www.youtube.com/watch?v=Dj5sMHArRGo'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
