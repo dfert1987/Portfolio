@@ -57,15 +57,15 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link
-                    to='https://youtu.be/Fiu_T_yHdH0'
+                  <a
+                    href='https://youtu.be/Fiu_T_yHdH0'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
-                  </Link>
+                  </a>
                   <a
                     href='https://github.com/dfert1987/Homer_Blog'
                     target='_blank'
@@ -194,15 +194,15 @@ const Projects = () => {
                   </div>
                 </div>
                 <div className='button-container'>
-                  <Link
-                    to='https://www.youtube.com/watch?v=Dj5sMHArRGo'
+                  <a
+                    href='https://www.youtube.com/watch?v=Dj5sMHArRGo'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
                     <Button buttonStyle='btn--primary' className='demo-button'>
                       VIEW DEMO
                     </Button>
-                  </Link>
+                  </a>
                   <a
                     href='https://github.com/dfert1987/cratediggerproject'
                     target='_blank'
