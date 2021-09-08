@@ -58,7 +58,7 @@ const Projects = () => {
                 </div>
                 <div className='button-container'>
                   <Link
-                    to='https://www.youtube.com/watch?v=Fiu_T_yHdH0'
+                    to='https://www.youtube.com/watch?v=Q5tFH9kJYVc'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
